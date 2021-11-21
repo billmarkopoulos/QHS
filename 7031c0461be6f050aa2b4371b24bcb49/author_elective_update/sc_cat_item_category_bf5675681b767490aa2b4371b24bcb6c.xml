@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Test">d13631681b767490aa2b4371b24bcb14</sc_cat_item>
+        <sc_category display_value="HR Requests">295be1021ba0ac102268a8217e4bcb46</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>l.adamos@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-21 14:18:44</sys_created_on>
+        <sys_id>bf5675681b767490aa2b4371b24bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Requests.Test</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sc_cat_item_category_bf5675681b767490aa2b4371b24bcb6c</sys_update_name>
+        <sys_updated_by>l.adamos@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-21 14:18:44</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sc_cat_item_category_bf5675681b767490aa2b4371b24bcb6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Test">d13631681b767490aa2b4371b24bcb14</sc_cat_item><sc_category display_value="HR Requests">295be1021ba0ac102268a8217e4bcb46</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>l.adamos@empedus.eu</sys_created_by><sys_created_on>2021-09-21 14:18:44</sys_created_on><sys_id>bf5675681b767490aa2b4371b24bcb6c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Requests.Test</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sc_cat_item_category_bf5675681b767490aa2b4371b24bcb6c</sys_update_name><sys_updated_by>l.adamos@empedus.eu</sys_updated_by><sys_updated_on>2021-09-21 14:18:44</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>443784338</payload_hash>
+        <record_name>HR Requests.Test</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>l.adamos@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-21 14:18:44</sys_created_on>
+        <sys_id>b35675681b767490aa2b4371b24bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c08b9260c0000001</sys_recorded_at>
+        <sys_updated_by>l.adamos@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-21 14:18:44</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>bb567568257674902448f53d84d3a06f</update_guid>
+        <update_guid_history>bb567568257674902448f53d84d3a06f:443784338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR Requests.Test">9858bd2c1b767490aa2b4371b24bcb13</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>l.adamos@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-21 14:27:13</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>3c25174a63fd4911b3dc595372f23f59</sys_id>
+        <sys_metadata>bf5675681b767490aa2b4371b24bcb6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Requests.Test</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_bf5675681b767490aa2b4371b24bcb6c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_bf5675681b767490aa2b4371b24bcb6c">b35675681b767490aa2b4371b24bcb70</sys_update_version>
+        <sys_updated_by>l.adamos@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-21 14:27:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

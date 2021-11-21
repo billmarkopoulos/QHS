@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Ενημερωση Διευθυντών για οριστικοποιηση σε 7ΗΗ</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anastasis Tsaparis">e30397c21bc938902268a8217e4bcbbf</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-10-13 13:31:19</run_start>
+        <run_time>1969-12-31 22:00:00</run_time>
+        <run_type>once</run_type>
+        <script><![CDATA[var gr = new GlideRecord("x_epats_qhs_qhs_policy");
+//gr.addActiveQuery();
+//gr.addQuery("end_date",'!=','');
+//gr.query();
+//while(gr.next()) {
+	var due_date = gr.getValue("u_glide_record_1");
+	var today_date = gs.daysAgo(2); //gets 5 days before Today.
+	if(end_date <= today_date) {
+          //It means that the end date is either 2 days form today or more than that. hence we need to send notification.  
+		gs.eventQueue('x_epats_qhs.Ενημερωση διευθυντων για εγκριση 7ΗΗ', gr, gs.getUserID()); //replace the name here with the event name that you have created. 
+	} 	
+//}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-10-13 14:38:18</sys_created_on>
+        <sys_id>3b7efaa38703305005ec65750cbb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ενημερωση Διευθυντών για οριστικοποιηση σε 7ΗΗ</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysauto_script_3b7efaa38703305005ec65750cbb35ff</sys_update_name>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-10-13 14:38:18</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

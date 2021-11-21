@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_epats_qhs_qhs_policy" version="2" view="RPTd70e423b8777745005ec65750cbb3500">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_owning_group_qhs</element>
+            <list_id display_value="x_epats_qhs_qhs_policy" element="NULL" name="x_epats_qhs_qhs_policy" parent="NULL" relationship="NULL" sys_domain="global" view="2f0e863b8777745005ec65750cbb35ee">682287bb87bb745005ec65750cbb35b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_id>642287bb87bb745005ec65750cbb35b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_epats_qhs_qhs_policy" element="NULL" name="x_epats_qhs_qhs_policy" parent="NULL" relationship="NULL" sys_domain="global" view="2f0e863b8777745005ec65750cbb35ee">682287bb87bb745005ec65750cbb35b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_id>e42287bb87bb745005ec65750cbb35b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_epats_qhs_qhs_policy" element="NULL" name="x_epats_qhs_qhs_policy" parent="NULL" relationship="NULL" sys_domain="global" view="2f0e863b8777745005ec65750cbb35ee">682287bb87bb745005ec65750cbb35b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_id>682287bb87bb745005ec65750cbb35b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>procedure_2</element>
+            <list_id display_value="x_epats_qhs_qhs_policy" element="NULL" name="x_epats_qhs_qhs_policy" parent="NULL" relationship="NULL" sys_domain="global" view="2f0e863b8777745005ec65750cbb35ee">682287bb87bb745005ec65750cbb35b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_id>e82287bb87bb745005ec65750cbb35b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>duration_edit</element>
+            <list_id display_value="x_epats_qhs_qhs_policy" element="NULL" name="x_epats_qhs_qhs_policy" parent="NULL" relationship="NULL" sys_domain="global" view="2f0e863b8777745005ec65750cbb35ee">682287bb87bb745005ec65750cbb35b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_id>6c2287bb87bb745005ec65750cbb35b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>duration_commentary</element>
+            <list_id display_value="x_epats_qhs_qhs_policy" element="NULL" name="x_epats_qhs_qhs_policy" parent="NULL" relationship="NULL" sys_domain="global" view="2f0e863b8777745005ec65750cbb35ee">682287bb87bb745005ec65750cbb35b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_id>ec2287bb87bb745005ec65750cbb35b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>duration_general_director_approval</element>
+            <list_id display_value="x_epats_qhs_qhs_policy" element="NULL" name="x_epats_qhs_qhs_policy" parent="NULL" relationship="NULL" sys_domain="global" view="2f0e863b8777745005ec65750cbb35ee">682287bb87bb745005ec65750cbb35b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_id>602287bb87bb745005ec65750cbb35b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>duration_total</element>
+            <list_id display_value="x_epats_qhs_qhs_policy" element="NULL" name="x_epats_qhs_qhs_policy" parent="NULL" relationship="NULL" sys_domain="global" view="2f0e863b8777745005ec65750cbb35ee">682287bb87bb745005ec65750cbb35b2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_id>e02287bb87bb745005ec65750cbb35b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_epats_qhs_qhs_policy</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 15:12:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>682287bb87bb745005ec65750cbb35b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_epats_qhs_qhs_policy</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_ui_list_x_epats_qhs_qhs_policy_RPTd70e423b8777745005ec65750cbb3500</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 15:12:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptd70e423b8777745005ec65750cbb3500" name="RPTd70e423b8777745005ec65750cbb3500">2f0e863b8777745005ec65750cbb35ee</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

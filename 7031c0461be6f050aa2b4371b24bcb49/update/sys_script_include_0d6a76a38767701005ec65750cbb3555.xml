@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_epats_qhs.QHSrevisionFromCatalog</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>QHSrevisionFromCatalog</name>
+        <script><![CDATA[var QHSrevisionFromCatalog = Class.create();
+QHSrevisionFromCatalog.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    updateRecord: function () {
+
+              var recordid = this.getParameter('sysparm_recordid');
+		      var userid = this.getParameter('sysparm_userid');
+
+              var gr = new GlideRecord('x_epats_qhs_qhs_policy');
+		
+			gr.addQuery('sys_id',recordid);
+			gr.query();
+		
+			var recordURL;
+			var urlFinal;
+			var baseURL = gs.getProperty('glide.servlet.uri');
+		
+			if (gr.next()){
+				
+				var gr_check = new GlideRecord('x_epats_qhs_qhs_policy');
+				gr_check.addQuery('kb_article',gr.kb_article);
+				gr_check.addQuery('state','draft').addOrCondition('state','commentary').addOrCondition('state','review').addOrCondition('state','awaiting approval').addOrCondition('state','approval');
+				gr_check.query();
+				
+				if (gr_check.next()){
+					return 'in_revision';
+				}
+
+				var gr2 = new GlideRecord('x_epats_qhs_qhs_policy');
+
+				gr2.initialize();
+				gr2.name = gr.name;
+				gr2.u_string_1 = gr.u_string_1;
+				gr2.assigned_to = userid;
+				gr2.opened_by = userid;
+				gr2.procedure_2 = 'update';
+				gr2.kb_article = gr.kb_article;
+				gr2.insert();
+
+				recordURL = gr2.getLink();
+				
+				urlFinal = baseURL + recordURL;
+				
+				GlideSysAttachment.copy('kb_knowledge',gr.kb_article,'x_epats_qhs_qhs_policy',gr2.sys_id);
+				
+				return urlFinal;    
+				
+			}
+
+      }
+	
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-07 09:45:21</sys_created_on>
+        <sys_id>0d6a76a38767701005ec65750cbb3555</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>QHSrevisionFromCatalog</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_include_0d6a76a38767701005ec65750cbb3555</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-07 18:17:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

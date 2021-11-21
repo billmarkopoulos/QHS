@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>u_imp_tmpl_x_epats_qhs_qhs_policy</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>u_imp_tmpl_x_epats_qhs_qhs_policy</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-21 11:02:06</sys_created_on>
+        <sys_id>0419efca87d33c5005ec65750cbb3571</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_imp_tmpl_x_epats_qhs_qhs_policy</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_transform_map_0419efca87d33c5005ec65750cbb3571</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-21 11:02:06</sys_updated_on>
+        <target_table>x_epats_qhs_qhs_policy</target_table>
+    </sys_transform_map>
+</record_update>

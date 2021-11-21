@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="New policy">f8f475a41b767490aa2b4371b24bcb66</sc_cat_item>
+        <sc_catalog display_value="Document Management">03827d601b767490aa2b4371b24bcbc1</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>l.adamos@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-21 14:12:31</sys_created_on>
+        <sys_id>09f475a41b767490aa2b4371b24bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Management.New policy</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_09f475a41b767490aa2b4371b24bcb6d</sys_update_name>
+        <sys_updated_by>l.adamos@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-21 14:12:31</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sc_cat_item_catalog_09f475a41b767490aa2b4371b24bcb6d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="New policy">f8f475a41b767490aa2b4371b24bcb66</sc_cat_item><sc_catalog display_value="Document Management">03827d601b767490aa2b4371b24bcbc1</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>l.adamos@empedus.eu</sys_created_by><sys_created_on>2021-09-21 14:12:31</sys_created_on><sys_id>09f475a41b767490aa2b4371b24bcb6d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Document Management.New policy</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sc_cat_item_catalog_09f475a41b767490aa2b4371b24bcb6d</sys_update_name><sys_updated_by>l.adamos@empedus.eu</sys_updated_by><sys_updated_on>2021-09-21 14:12:31</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-369276576</payload_hash>
+        <record_name>Document Management.New policy</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>l.adamos@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-21 14:12:31</sys_created_on>
+        <sys_id>09f475a41b767490aa2b4371b24bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c08b377ad0000001</sys_recorded_at>
+        <sys_updated_by>l.adamos@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-21 14:12:31</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4df475a47976749006c99d105565ca6f</update_guid>
+        <update_guid_history>4df475a47976749006c99d105565ca6f:-369276576</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Document Management.New policy">d74771e81b767490aa2b4371b24bcb2d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>l.adamos@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-21 14:22:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>136338e2cc2447e885ff1b8aa91aa240</sys_id>
+        <sys_metadata>09f475a41b767490aa2b4371b24bcb6d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Management.New policy</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="Δημιουργία Εγγράφου Συστήματος Διαχείρισης">212c65641b367490aa2b4371b24bcb47</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_09f475a41b767490aa2b4371b24bcb6d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_09f475a41b767490aa2b4371b24bcb6d">09f475a41b767490aa2b4371b24bcb70</sys_update_version>
+        <sys_updated_by>l.adamos@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-21 14:22:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

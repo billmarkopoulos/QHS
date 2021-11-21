@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>state</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_epats_qhs_qhs_policy</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-09-13 12:57:06</sys_created_on>
+        <sys_id>12f618ce87ea705005ec65750cbb3588</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_dictionary_override_12f618ce87ea705005ec65750cbb3588</sys_update_name>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-09-13 13:41:14</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_dictionary_override_12f618ce87ea705005ec65750cbb3588</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>true</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>state</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_epats_qhs_qhs_policy</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>anastasis</sys_created_by><sys_created_on>2021-09-13 12:57:06</sys_created_on><sys_id>12f618ce87ea705005ec65750cbb3588</sys_id><sys_mod_count>6</sys_mod_count><sys_name>state</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_dictionary_override_12f618ce87ea705005ec65750cbb3588</sys_update_name><sys_updated_by>anastasis</sys_updated_by><sys_updated_on>2021-09-13 13:41:14</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>2112126775</payload_hash>
+        <record_name>state</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-09-13 13:41:14</sys_created_on>
+        <sys_id>4d11e88e872e705005ec65750cbb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bdf63f46a0000001</sys_recorded_at>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-09-13 13:41:14</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>3411e88e3a2e70502aba6f88561236cf</update_guid>
+        <update_guid_history>3411e88e3a2e70502aba6f88561236cf:2112126775,ee01a88e2d2e70507e9782c67ebb96f3:1042692709,61ab58868d2e7050b7848c9c069940a3:-1282722978,678b9486c62e70500bed03ca233f6a46:1042692709,4b6bd0866f2e70508c71c2a625612d59:2112126775,1af618ceabea70501cd1c74d157bf48f:1042692709,9af618ced7ea70504c9ada8e2c67da8a:1343619232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-17 08:56:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>47b926d3587140b4af890077f7b15a90</sys_id>
+        <sys_metadata>12f618ce87ea705005ec65750cbb3588</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="">6cb3cc421b2af050aa2b4371b24bcb16</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_12f618ce87ea705005ec65750cbb3588</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_12f618ce87ea705005ec65750cbb3588">4d11e88e872e705005ec65750cbb35cf</sys_update_version>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-17 08:56:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

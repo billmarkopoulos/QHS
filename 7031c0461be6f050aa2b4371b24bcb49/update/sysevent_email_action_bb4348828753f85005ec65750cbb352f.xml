@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_epats_qhs_qhs_policy</collection>
+        <condition table="x_epats_qhs_qhs_policy">is_revise_program=true^EQ<item endquery="false" field="is_revise_program" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>(insert)</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&Xi;&epsilon;&kappa;ί&nu;&eta;&sigma;&epsilon; &eta; &delta;&iota;&alpha;&delta;&iota;&kappa;&alpha;&sigma;ί&alpha; &delta;&eta;&mu;&iota;&omicron;&upsilon;&rho;&gamma;ί&alpha;&sigmaf; &epsilon;&tau;ή&sigma;&iota;&omicron;&upsilon; &pi;&rho;&omicron;&gamma;&rho;ά&mu;&mu;&alpha;&tau;&omicron;&sigmaf; &alpha;&nu;&alpha;&theta;&epsilon;ώ&rho;&eta;&sigma;&eta;&sigmaf; &epsilon;&sigma;&omega;&tau;&epsilon;&rho;&iota;&kappa;ώ&nu; &epsilon;&gamma;&gamma;&rho;ά&phi;&omega;&nu; &gamma;&iota;&alpha; &tau;&omicron;&nu; &tau;&omicron;&mu;έ&alpha; ${u_owning_group_qhs}. &Tau;&alpha; έ&gamma;&gamma;&rho;&alpha;&phi;&alpha; &pi;&omicron;&upsilon; &alpha;&phi;&omicron;&rho;&omicron;ύ&nu; &tau;&eta; &delta;&iota;&alpha;&delta;&iota;&kappa;&alpha;&sigma;ί&alpha; &alpha;&upsilon;&tau;ή, &epsilon;ί&nu;&alpha;&iota; &tau;&alpha; &epsilon;&xi;ή&sigmaf;:</p>
+<p><br /></p>
+<p>${mail_script:QHS - Get published polices mail}</p>
+<p><br /></p>
+<p>&Gamma;&iota;&alpha; &nu;&alpha; &sigma;&chi;&omicron;&lambda;&iota;ά&sigma;&epsilon;&tau;&epsilon; &kappa;&alpha;&iota; &nu;&alpha; &tau;&rho;&omicron;&pi;&omicron;&pi;&omicron;&iota;ή&sigma;&epsilon;&tau;&epsilon; &tau;&omicron; &pi;&rho;ό&gamma;&rho;&alpha;&mu;&mu;&alpha;, &epsilon;&pi;&iota;&sigma;&kappa;&epsilon;&phi;&tau;&epsilon;ί&tau;&epsilon; &tau;&omicron;&nu; &sigma;ύ&nu;&delta;&epsilon;&sigma;&mu;&omicron;: ${URI}</p>
+<p><br /></p>
+<p>&Mu;&pi;&omicron;&rho;&epsilon;ί&tau;&epsilon; &epsilon;&pi;ί&sigma;&eta;&sigmaf; &nu;&alpha; &sigma;&chi;&omicron;&lambda;&iota;ά&sigma;&epsilon;&tau;&epsilon; &tau;&omicron; έ&gamma;&gamma;&rho;&alpha;&phi;&omicron; &kappa;&alpha;&iota; &nu;&alpha; &sigma;&tau;&epsilon;ί&lambda;&epsilon;&tau;&epsilon; &sigma;&chi;&epsilon;&tau;&iota;&kappa;ά &alpha;&rho;&chi;&epsilon;ί&alpha;, &alpha;&pi;&alpha;&nu;&tau;ώ&nu;&tau;&alpha;&sigmaf; &sigma;&epsilon; &alpha;&upsilon;&tau;ό &tau;&omicron; e-mail.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>QHS Notify for Annual Program Initiation</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>qhs_director,qhs_manager,owning_group,general_director</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>ΣΧΗΜΑΤΙΣΜΟΣ ΕΤΗΣΙΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ ΑΝΑΘΕΩΡΗΣΗΣ ΕΣΩΤΕΡΙΚΩΝ ΕΓΓΡΑΦΩΝ ΤΟΥ ΤΟΜΕΑ ${u_owning_group_qhs}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-20 18:27:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb4348828753f85005ec65750cbb352f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>QHS Notify for Annual Program Initiation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysevent_email_action_bb4348828753f85005ec65750cbb352f</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-11 10:22:17</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

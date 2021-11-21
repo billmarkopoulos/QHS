@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>90df6dbc87beb09005ec65750cbb3542</element>
+        <id>90df6dbc87beb09005ec65750cbb3542</id>
+        <label>Basic Information</label>
+        <language>el</language>
+        <name>item_option_new</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 07:37:57</sys_created_on>
+        <sys_id>402047aa87ef305005ec65750cbb3504</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Basic Information</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_translated_402047aa87ef305005ec65750cbb3504</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 07:41:27</sys_updated_on>
+        <value>Policy Document Name</value>
+    </sys_translated>
+</record_update>

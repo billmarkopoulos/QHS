@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition><![CDATA[if (current.document_id.is_revise_program!=true){
+	answer = true;
+}]]></advanced_condition>
+        <affected_field_on_event/>
+        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
+        <collection>sysapproval_approver</collection>
+        <condition/>
+        <content_type>multipart/mixed</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_epats_qhs.approval.approval_mail</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&Kappa;&alpha;&lambda;&epsilon;ί&sigma;&tau;&epsilon; &nu;&alpha; &epsilon;&xi;&epsilon;&tau;ά&sigma;&epsilon;&tau;&epsilon; &kappa;&alpha;&iota; &nu;&alpha; &epsilon;&gamma;&kappa;&rho;ί&nu;&epsilon;&tau;&epsilon; ή &nu;&alpha; &alpha;&pi;&omicron;&rho;&rho;ί&psi;&epsilon;&tau;&epsilon; &tau;&omicron; &epsilon;&sigma;&omega;&tau;&epsilon;&rho;&iota;&kappa;ό έ&gamma;&gamma;&rho;&alpha;&phi;&omicron; &mu;&epsilon; ό&nu;&omicron;&mu;&alpha; <strong>"${document_id.name}" </strong>.</p>
+<ul style="list-style-position: inside;">
+<li>Name: ${document_id.name}</li>
+<li>&Tau;ύ&pi;&omicron;&sigmaf; &Epsilon;&gamma;&gamma;&rho;ά&phi;&omicron;&upsilon;: ${document_id.u_string_1}</li>
+<li>&Tau;&omicron;&mu;έ&alpha;&sigmaf;: ${document_id.u_owning_group_qhs}</li>
+<li>&Upsilon;&pi;&epsilon;ύ&theta;&upsilon;&nu;&omicron;&sigmaf; &Tau;&omicron;&mu;έ&alpha;: ${document_id.u_owner_qhs}</li>
+<li>Due date: ${document_id.u_glide_date_1}</li>
+</ul>
+<p>&Alpha;&rho;&chi;&epsilon;ί&alpha;:</p>
+<p>${mail_script:QHS - Get Attachments of Interest APPROVAL}</p>
+<p><br /></p>
+<p>&Gamma;&iota;&alpha; &nu;&alpha; &epsilon;&pi;&iota;&sigma;&kappa;&epsilon;&phi;&tau;&epsilon;ί&tau;&epsilon; &tau;&omicron; &alpha;&rho;&chi;&epsilon;ί&omicron; &epsilon;&pi;&epsilon;&xi;&epsilon;&rho;&gamma;&alpha;&sigma;ί&alpha;&sigmaf;, &pi;&alpha;&tau;ή&sigma;&tau;&epsilon; &sigma;&tau;&omicron;&nu; &sigma;ύ&nu;&delta;&epsilon;&sigma;&mu;&omicron;: ${mail_script:QHS - Get Apporving Policy Link}</p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>]]></message_html>
+        <message_list>b7400b0253020200601fa3fc9ec5870f</message_list>
+        <message_text/>
+        <name>Approval Request QHS</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>QHS - ΕΓΚΡΙΣΗ ΕΚΔΟΣΗΣ ΕΓΓΡΑΦΟΥ [${event.parm2}]</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-18 11:52:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8be790d1879bf45005ec65750cbb3523</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Approval Request QHS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysevent_email_action_8be790d1879bf45005ec65750cbb3523</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-07 20:06:12</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Approval  QHS">235f906a87db7c5005ec65750cbb35d1</template>
+        <type>email</type>
+        <weight>10</weight>
+    </sysevent_email_action>
+</record_update>

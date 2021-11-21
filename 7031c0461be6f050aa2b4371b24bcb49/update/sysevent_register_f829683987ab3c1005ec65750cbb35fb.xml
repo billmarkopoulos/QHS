@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_epats_qhs.revisal_program.notify_early</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>revisal_program.notify_early</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-01 12:41:28</sys_created_on>
+        <sys_id>f829683987ab3c1005ec65750cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_epats_qhs.revisal_program.notify_early</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysevent_register_f829683987ab3c1005ec65750cbb35fb</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-01 12:41:28</sys_updated_on>
+        <table>x_epats_qhs_qhs_policy</table>
+    </sysevent_register>
+</record_update>

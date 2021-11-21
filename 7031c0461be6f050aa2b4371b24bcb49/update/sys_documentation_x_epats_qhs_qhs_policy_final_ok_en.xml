@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="final_ok" label="Ready for Publication" language="en" table="x_epats_qhs_qhs_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>final_ok</element>
+            <help/>
+            <hint/>
+            <label>Ready for Publication</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <plural>Ready for Publications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-10-21 08:12:24</sys_created_on>
+            <sys_id>52328f0a87dff85005ec65750cbb3520</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Ready for Publication</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_documentation_x_epats_qhs_qhs_policy_final_ok_en</sys_update_name>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-11-04 08:31:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>Create record from portal </name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-24 12:51:28</sys_created_on>
+        <sys_id>841f78e98732f49005ec65750cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create record from portal </sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_atf_test_841f78e98732f49005ec65750cbb35fb</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-24 12:51:28</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=841f78e98732f49005ec65750cbb35fb"/>
+</record_update>

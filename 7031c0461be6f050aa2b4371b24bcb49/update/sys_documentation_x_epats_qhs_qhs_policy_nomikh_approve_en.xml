@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="nomikh_approve" label="Χρειάζεται έγκριση από Νομική Υπηρεσία" language="en" table="x_epats_qhs_qhs_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>nomikh_approve</element>
+            <help/>
+            <hint/>
+            <label>Χρειάζεται έγκριση από Νομική Υπηρεσία</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <plural>Χρειάζεται έγκριση από Νομική Υπηρεσίαs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-10-19 10:17:18</sys_created_on>
+            <sys_id>14ab09698713785005ec65750cbb35fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Χρειάζεται έγκριση από Νομική Υπηρεσία</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_documentation_x_epats_qhs_qhs_policy_nomikh_approve_en</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-10-19 10:17:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

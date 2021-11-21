@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group name="PROC">766be7c6dbcaec10b14388805b961949</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>PROC users</name>
+        <role/>
+        <script/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-22 09:05:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41e7d0ee879b7c5005ec65750cbb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PROC users</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>user_criteria_41e7d0ee879b7c5005ec65750cbb3527</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-22 09:05:21</sys_updated_on>
+        <user/>
+    </user_criteria>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Αναθεωρηση 2ο εξαμηνο </name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Anastasis Tsaparis">e30397c21bc938902268a8217e4bcbbf</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1971-01-01 00:00:00</run_period>
+        <run_start>2022-07-11 06:00:00</run_start>
+        <run_time>1969-12-31 22:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[gs.eventQueue('x_epats_qhs.Αναθεωρηση 2ο εξαμηνο',current,current.number,gs.getUserName());]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-09-30 09:53:04</sys_created_on>
+        <sys_id>ea9f8fd71b7e38d0aa2b4371b24bcb36</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Αναθεωρηση 2ο εξαμηνο </sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysauto_script_ea9f8fd71b7e38d0aa2b4371b24bcb36</sys_update_name>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-09-30 10:03:17</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

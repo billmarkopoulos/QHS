@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access/>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Email notification to Διευθυντής  twice a year</description>
+        <internal_name>schedule_jobs</internal_name>
+        <label_cache>[{"name":"f8690aa2-acce-41e7-a1fb-085fab416d8c.total_duration","label":"1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"f8690aa2-acce-41e7-a1fb-085fab416d8c.scheduled_end_date_time","label":"1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"7a191b28-d5f6-4af9-b8f1-a2d4c951941e.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Schedule Jobs</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles>e742c88a1be6f050aa2b4371b24bcb2c,37428c4e1be6f050aa2b4371b24bcb04,e8b300ca1be6f050aa2b4371b24bcb2f</run_with_roles>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 09:34:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3422ca8b1bbab4d0aa2b4371b24bcb71</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Schedule Jobs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_hub_flow_3422ca8b1bbab4d0aa2b4371b24bcb71</sys_update_name>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:12:48</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=3422ca8b1bbab4d0aa2b4371b24bcb71"/>
+    <sys_variable_value action="DELETE" query="document_key=3422ca8b1bbab4d0aa2b4371b24bcb71"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=3422ca8b1bbab4d0aa2b4371b24bcb71^sys_idNOT INcd462a0b1bbeb4d0aa2b4371b24bcbdb"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Schedule Jobs">3422ca8b1bbab4d0aa2b4371b24bcb71</flow>
+        <name>Repeat</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 12:12:48</sys_created_on>
+        <sys_id>cd462a0b1bbeb4d0aa2b4371b24bcbdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:12:48</sys_updated_on>
+        <trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>repeat</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=cd462a0b1bbeb4d0aa2b4371b24bcbdb"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cd462a0b1bbeb4d0aa2b4371b24bcbdb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 12:12:48</sys_created_on>
+        <sys_id>81462a0b1bbeb4d0aa2b4371b24bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:12:48</sys_updated_on>
+        <value>1970-01-01 00:00:01</value>
+        <variable display_value="Repeat">1c5f4d94c32222002841b63b12d3aeb3</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="DELETE" query="id=3422ca8b1bbab4d0aa2b4371b24bcb71^sys_idNOT INb822ca8b1bbab4d0aa2b4371b24bcb73"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>3422ca8b1bbab4d0aa2b4371b24bcb71</id>
+        <name>Schedule Jobs</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 09:34:56</sys_created_on>
+        <sys_id>b822ca8b1bbab4d0aa2b4371b24bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 09:34:56</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_logic action="DELETE" query="flow=3422ca8b1bbab4d0aa2b4371b24bcb71^sys_idNOT INd9462a0b1bbeb4d0aa2b4371b24bcbdf"/>
+    <sys_hub_flow_logic action="DELETE">
+        <block display_value="">c9462a0b1bbeb4d0aa2b4371b24bcbde</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Schedule Jobs">3422ca8b1bbab4d0aa2b4371b24bcb71</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 12:12:48</sys_created_on>
+        <sys_id>d9462a0b1bbeb4d0aa2b4371b24bcbdf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:12:48</sys_updated_on>
+        <ui_id>f8690aa2-acce-41e7-a1fb-085fab416d8c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=d9462a0b1bbeb4d0aa2b4371b24bcbdf"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d9462a0b1bbeb4d0aa2b4371b24bcbdf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 12:12:48</sys_created_on>
+        <sys_id>5d46624b1bbeb4d0aa2b4371b24bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:12:48</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Percentage">8033309c5376230034c6ddeeff7b12e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d9462a0b1bbeb4d0aa2b4371b24bcbdf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 12:12:48</sys_created_on>
+        <sys_id>9946624b1bbeb4d0aa2b4371b24bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:12:48</sys_updated_on>
+        <value>relative_duration</value>
+        <variable display_value="Duration Type">4973581473031300b61e66476bf6a785</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d9462a0b1bbeb4d0aa2b4371b24bcbdf</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 12:12:48</sys_created_on>
+        <sys_id>d546624b1bbeb4d0aa2b4371b24bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:12:48</sys_updated_on>
+        <value>1970-01-01 00:00:00</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_hub_flow_3422ca8b1bbab4d0aa2b4371b24bcb71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access/><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>Email notification to Διευθυντής  twice a year</description><internal_name>schedule_jobs</internal_name><label_cache>[{"name":"f8690aa2-acce-41e7-a1fb-085fab416d8c.total_duration","label":"1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"f8690aa2-acce-41e7-a1fb-085fab416d8c.scheduled_end_date_time","label":"1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"7a191b28-d5f6-4af9-b8f1-a2d4c951941e.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}}]</label_cache><latest_snapshot/><master_snapshot/><name>Schedule Jobs</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles>e742c88a1be6f050aa2b4371b24bcb2c,37428c4e1be6f050aa2b4371b24bcb04,e8b300ca1be6f050aa2b4371b24bcb2f</run_with_roles><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-29 09:34:56</sys_created_on><sys_domain>global</sys_domain><sys_id>3422ca8b1bbab4d0aa2b4371b24bcb71</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Schedule Jobs</sys_name><sys_overrides/><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_hub_flow_3422ca8b1bbab4d0aa2b4371b24bcb71</sys_update_name><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-29 12:12:48</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=3422ca8b1bbab4d0aa2b4371b24bcb71"/><sys_variable_value action="delete_multiple" query="document_key=3422ca8b1bbab4d0aa2b4371b24bcb71"/><sys_hub_trigger_instance action="delete_multiple" query="flow=3422ca8b1bbab4d0aa2b4371b24bcb71^sys_idNOT INcd462a0b1bbeb4d0aa2b4371b24bcbdb"/><sys_hub_trigger_instance action="INSERT_OR_UPDATE"><comment/><display_text/><flow display_value="Schedule Jobs">3422ca8b1bbab4d0aa2b4371b24bcb71</flow><name>Repeat</name><remote_sys_id/><sys_class_name>sys_hub_trigger_instance</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-29 12:12:48</sys_created_on><sys_id>cd462a0b1bbeb4d0aa2b4371b24bcbdb</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name/><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-29 12:12:48</sys_updated_on><trigger_definition display_value="Repeat">f63f0d94c32222002841b63b12d3aeed</trigger_definition><trigger_inputs/><trigger_outputs/><trigger_type>repeat</trigger_type></sys_hub_trigger_instance><sys_variable_value action="delete_multiple" query="document_key=cd462a0b1bbeb4d0aa2b4371b24bcbdb"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_trigger_instance</document><document_key>cd462a0b1bbeb4d0aa2b4371b24bcbdb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-29 12:12:48</sys_created_on><sys_id>81462a0b1bbeb4d0aa2b4371b24bcbdd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-29 12:12:48</sys_updated_on><value>1970-01-01 00:00:01</value><variable display_value="Repeat">1c5f4d94c32222002841b63b12d3aeb3</variable></sys_variable_value><sys_flow_cat_variable_model action="delete_multiple" query="id=3422ca8b1bbab4d0aa2b4371b24bcb71^sys_idNOT INb822ca8b1bbab4d0aa2b4371b24bcb73"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>3422ca8b1bbab4d0aa2b4371b24bcb71</id><name>Schedule Jobs</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-29 09:34:56</sys_created_on><sys_id>b822ca8b1bbab4d0aa2b4371b24bcb73</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name/><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-29 09:34:56</sys_updated_on></sys_flow_cat_variable_model><sys_hub_flow_logic action="delete_multiple" query="flow=3422ca8b1bbab4d0aa2b4371b24bcb71^sys_idNOT INd9462a0b1bbeb4d0aa2b4371b24bcbdf"/><sys_hub_flow_logic action="INSERT_OR_UPDATE"><block display_value="">c9462a0b1bbeb4d0aa2b4371b24bcbde</block><comment/><connected_to/><decision_table/><decision_table_inputs/><display_text/><extended_inputs/><flow display_value="Schedule Jobs">3422ca8b1bbab4d0aa2b4371b24bcb71</flow><flow_variable/><flow_variables_assigned/><inputs/><logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition><order>1</order><outputs_assigned/><outputs_to_assign/><parent_ui_id/><sys_class_name>sys_hub_flow_logic</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-29 12:12:48</sys_created_on><sys_id>d9462a0b1bbeb4d0aa2b4371b24bcbdf</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name/><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-29 12:12:48</sys_updated_on><ui_id>f8690aa2-acce-41e7-a1fb-085fab416d8c</ui_id><workflow_inputs/><workflow_reference/></sys_hub_flow_logic><sys_variable_value action="delete_multiple" query="document_key=d9462a0b1bbeb4d0aa2b4371b24bcbdf"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_flow_logic</document><document_key>d9462a0b1bbeb4d0aa2b4371b24bcbdf</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-29 12:12:48</sys_created_on><sys_id>5d46624b1bbeb4d0aa2b4371b24bcbe3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-29 12:12:48</sys_updated_on><value>0</value><variable display_value="Percentage">8033309c5376230034c6ddeeff7b12e1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_flow_logic</document><document_key>d9462a0b1bbeb4d0aa2b4371b24bcbdf</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-29 12:12:48</sys_created_on><sys_id>9946624b1bbeb4d0aa2b4371b24bcbe3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-29 12:12:48</sys_updated_on><value>relative_duration</value><variable display_value="Duration Type">4973581473031300b61e66476bf6a785</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_flow_logic</document><document_key>d9462a0b1bbeb4d0aa2b4371b24bcbdf</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-29 12:12:48</sys_created_on><sys_id>d546624b1bbeb4d0aa2b4371b24bcbe3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-29 12:12:48</sys_updated_on><value>1970-01-01 00:00:00</value><variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-808131342</payload_hash>
+        <record_name>Schedule Jobs</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-29 12:12:48</sys_created_on>
+        <sys_id>d946a24b1bbeb4d0aa2b4371b24bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c3178bd930000001</sys_recorded_at>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-29 12:12:48</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>9146a24b6abeb4d090b0b3d9ee715d11</update_guid>
+        <update_guid_history>9146a24b6abeb4d090b0b3d9ee715d11:-808131342,f422ca8b66bab4d065911088142b0477:-1074184224</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-10-04 12:40:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>09af707ffb88429894c719a86916a640</sys_id>
+        <sys_metadata>3422ca8b1bbab4d0aa2b4371b24bcb71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Schedule Jobs</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_3422ca8b1bbab4d0aa2b4371b24bcb71</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_3422ca8b1bbab4d0aa2b4371b24bcb71">d946a24b1bbeb4d0aa2b4371b24bcb11</sys_update_version>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-10-04 12:40:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

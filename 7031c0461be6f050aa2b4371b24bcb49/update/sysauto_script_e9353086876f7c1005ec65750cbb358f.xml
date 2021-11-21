@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>QHS - Anual revison 2nd quarter</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Alexandros  Karasakalidis">d183d2b41bf760102268a8217e4bcb68</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1971-01-01 00:00:00</run_period>
+        <run_start>2022-08-01 04:00:00</run_start>
+        <run_time>1969-12-31 22:00:30</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var departments = ['AFC','CA','CON','DEV','GM','GMI','HR','ICT','LEG','MB','PROC','QHS','START-REG'];
+
+var today = new GlideDate();
+var deadline = new GlideDateTime();
+deadline.addDaysLocalTime(15);
+
+for (var i=0; i<departments.length;i++){
+	gr = new GlideRecord('x_epats_qhs_qhs_policy');
+	gr.initialize();
+	gr.name = 'ΕΠΙΠΡΟΣΘΕΤΕΣ ΑΝΑΓΚΕΣ ΠΡΟΓΡΑΜΜΑΤΟΣ ΑΝΑΘΕΩΡΗΣΗΣ ΕΣΩΤΕΡΙΚΩΝ ΕΓΓΡΑΦΩΝ ΤΜΗΜΑΤΟΣ' + departments[i] + ' | ' + today.getMonthNoTZ() + '/' + today.getYearNoTZ();
+	gr.state = 'approval';
+	gr.is_revise_program = true;
+	gr.u_owning_group_qhs = departments[i];
+	gr.u_glide_date_1 = deadline;
+	gr.procedure_2 = 'ΔΗΜΙΟΥΡΓΙΑ ΠΡΟΓΡΑΜΜΑΤΟΣ';
+	gr.update();
+}
+
+gs.info('QHS - Update attachments from approvements run successfuly');]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-02 08:12:00</sys_created_on>
+        <sys_id>e9353086876f7c1005ec65750cbb358f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>QHS - Anual revison 2nd quarter</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysauto_script_e9353086876f7c1005ec65750cbb358f</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-02 08:13:13</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

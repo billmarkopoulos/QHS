@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Qhs email info</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+         var gr = new GlideRecord("x_epats_qhs_qhs_policy");
+
+
+		gr.get(current.document_id);
+
+
+		template.print("Name:" + gr.name + '<BR>');
+
+
+		template.print("Due Date:" + gr.u_glide_date_1);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-10-14 13:11:47</sys_created_on>
+        <sys_id>ae22cc481b53b050aa2b4371b24bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Qhs email info</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_email_ae22cc481b53b050aa2b4371b24bcbd7</sys_update_name>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-10-14 13:11:47</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-13 11:32:53</sys_created_on>
+        <sys_id>6cb38c421b2af050aa2b4371b24bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_epats_qhs_qhs_policy.x_epats_qhs.qhs_policy_user</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_security_acl display_value="x_epats_qhs_qhs_policy">e0b38c421b2af050aa2b4371b24bcbf6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6cb38c421b2af050aa2b4371b24bcbf9</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-13 11:32:53</sys_updated_on>
+        <sys_user_role display_value="x_epats_qhs.qhs_policy_user" name="x_epats_qhs.qhs_policy_user">e8b300ca1be6f050aa2b4371b24bcb2f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_security_acl_role_6cb38c421b2af050aa2b4371b24bcbf9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>lamprou.sch@empedus.eu</sys_created_by><sys_created_on>2021-09-13 11:32:53</sys_created_on><sys_id>6cb38c421b2af050aa2b4371b24bcbf9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_epats_qhs_qhs_policy.x_epats_qhs.qhs_policy_user</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_security_acl display_value="x_epats_qhs_qhs_policy">e0b38c421b2af050aa2b4371b24bcbf6</sys_security_acl><sys_update_name>sys_security_acl_role_6cb38c421b2af050aa2b4371b24bcbf9</sys_update_name><sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by><sys_updated_on>2021-09-13 11:32:53</sys_updated_on><sys_user_role display_value="x_epats_qhs.qhs_policy_user" name="x_epats_qhs.qhs_policy_user">e8b300ca1be6f050aa2b4371b24bcb2f</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1231673567</payload_hash>
+        <record_name>x_epats_qhs_qhs_policy.x_epats_qhs.qhs_policy_user</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-13 11:32:53</sys_created_on>
+        <sys_id>28b38c421b2af050aa2b4371b24bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bdeee71f40000001</sys_recorded_at>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-13 11:32:53</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>20b38c422b2af05039c351045f0358fc</update_guid>
+        <update_guid_history>20b38c422b2af05039c351045f0358fc:1231673567</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_epats_qhs_qhs_policy.x_epats_qhs.qhs_policy_user">94468c571beef850aa2b4371b24bcbfe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-17 08:56:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0a785f4d970f4f6c852d2a823bd48384</sys_id>
+        <sys_metadata>6cb38c421b2af050aa2b4371b24bcbf9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_epats_qhs_qhs_policy.x_epats_qhs.qhs_policy_user</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="">e0b38c421b2af050aa2b4371b24bcbf6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6cb38c421b2af050aa2b4371b24bcbf9</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6cb38c421b2af050aa2b4371b24bcbf9">28b38c421b2af050aa2b4371b24bcbfc</sys_update_version>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-17 08:56:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

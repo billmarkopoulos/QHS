@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_epats_qhs.qhs_policy_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>qhs_policy_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-13 11:32:53</sys_created_on>
+        <sys_id>e8b300ca1be6f050aa2b4371b24bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_epats_qhs.qhs_policy_user</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_user_role_e8b300ca1be6f050aa2b4371b24bcb2f</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-13 11:32:53</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_user_role_e8b300ca1be6f050aa2b4371b24bcb2f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_epats_qhs.qhs_policy_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>qhs_policy_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>lamprou.sch@empedus.eu</sys_created_by><sys_created_on>2021-09-13 11:32:53</sys_created_on><sys_id>e8b300ca1be6f050aa2b4371b24bcb2f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_epats_qhs.qhs_policy_user</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_user_role_e8b300ca1be6f050aa2b4371b24bcb2f</sys_update_name><sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by><sys_updated_on>2021-09-13 11:32:53</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-577111300</payload_hash>
+        <record_name>x_epats_qhs.qhs_policy_user</record_name>
+        <reverted_from/>
+        <source>6a1e6977dbc0001009d3608505961978</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-03 12:01:41</sys_created_on>
+        <sys_id>73533a1287ebfc1005ec65750cbb35c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ce5ad23860000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-03 12:01:41</sys_updated_on>
+        <type>Role</type>
+        <update_guid>7b533a12dcebfc10dd247dc89c9265c7</update_guid>
+        <update_guid_history>7b533a12dcebfc10dd247dc89c9265c7:-577111300,3ab3ad86ed63bc109efe2f5854de8417:140835696,a4b38c42042af0500a485033cc0211c7:-577111300</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_epats_qhs.qhs_policy_user">fd909fd6876ffc1005ec65750cbb35ae</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-03 14:09:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>4eed30169df94fc6ae175ca5bbcb10e4</sys_id>
+        <sys_metadata>e8b300ca1be6f050aa2b4371b24bcb2f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_epats_qhs.qhs_policy_user</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_user_role_e8b300ca1be6f050aa2b4371b24bcb2f</sys_update_name>
+        <sys_update_version display_value="sys_user_role_e8b300ca1be6f050aa2b4371b24bcb2f">73533a1287ebfc1005ec65750cbb35c8</sys_update_version>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-03 14:09:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

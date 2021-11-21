@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>End of editing </name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	if(g_form.getValue('end_of_editing') =='true' && g_form.getValue('state') == 'commentary'){
+		g_form.setValue('state',"awaiting approval");
+		g_form.setValue('end_of_editing', 'false');
+		g_form.setValue('end_of_editing_flow', 'false');
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-28 12:18:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc4c99361b3e34d0aa2b4371b24bcbf5</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>End of editing </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_client_cc4c99361b3e34d0aa2b4371b24bcbf5</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-27 14:04:06</sys_updated_on>
+        <table>x_epats_qhs_qhs_policy</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

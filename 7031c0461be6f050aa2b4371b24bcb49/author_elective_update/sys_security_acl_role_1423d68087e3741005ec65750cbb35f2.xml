@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-27 09:56:05</sys_created_on>
+        <sys_id>1423d68087e3741005ec65750cbb35f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_epats_qhs.qhs_admin</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_security_acl display_value="">eb1352c087e3741005ec65750cbb3530</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1423d68087e3741005ec65750cbb35f2</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-27 09:56:05</sys_updated_on>
+        <sys_user_role display_value="x_epats_qhs.qhs_admin" name="x_epats_qhs.qhs_admin">e742c88a1be6f050aa2b4371b24bcb2c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_security_acl_role_1423d68087e3741005ec65750cbb35f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>alex</sys_created_by><sys_created_on>2021-10-27 09:56:05</sys_created_on><sys_id>1423d68087e3741005ec65750cbb35f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_epats_qhs.qhs_admin</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_security_acl display_value="">eb1352c087e3741005ec65750cbb3530</sys_security_acl><sys_update_name>sys_security_acl_role_1423d68087e3741005ec65750cbb35f2</sys_update_name><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-10-27 09:56:05</sys_updated_on><sys_user_role display_value="x_epats_qhs.qhs_admin" name="x_epats_qhs.qhs_admin">e742c88a1be6f050aa2b4371b24bcb2c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1553324481</payload_hash>
+        <record_name>.x_epats_qhs.qhs_admin</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-27 09:56:05</sys_created_on>
+        <sys_id>2b7312c087e3741005ec65750cbb35ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cc12d9f950000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-27 09:56:05</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>237312c0eae374107cdb4656fcd95bab</update_guid>
+        <update_guid_history>237312c0eae374107cdb4656fcd95bab:-1553324481</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_epats_qhs.qhs_admin">00ba8b00872b741005ec65750cbb3567</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-27 13:57:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1f9aa9f6c1264e2287a9fd996c2fbd11</sys_id>
+        <sys_metadata>1423d68087e3741005ec65750cbb35f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_epats_qhs.qhs_admin</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_1423d68087e3741005ec65750cbb35f2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_1423d68087e3741005ec65750cbb35f2">2b7312c087e3741005ec65750cbb35ab</sys_update_version>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-27 13:57:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

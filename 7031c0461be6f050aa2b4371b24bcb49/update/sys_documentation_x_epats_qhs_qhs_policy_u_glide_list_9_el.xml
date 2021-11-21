@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_glide_list_9" label="Εμπλεκόμενοι Διευθυντές" language="el" table="x_epats_qhs_qhs_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_glide_list_9</element>
+            <help/>
+            <hint/>
+            <label>Εμπλεκόμενοι Διευθυντές</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-11-04 06:20:44</sys_created_on>
+            <sys_id>a9eeaae287af305005ec65750cbb357a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Εμπλεκόμενοι Διευθυντές</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_documentation_x_epats_qhs_qhs_policy_u_glide_list_9_el</sys_update_name>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-11-04 06:20:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

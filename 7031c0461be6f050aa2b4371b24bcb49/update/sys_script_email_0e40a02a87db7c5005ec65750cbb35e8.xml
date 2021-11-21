@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>QHS - Get Apporving Policy Link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	
+	var gr = new GlideRecord('x_epats_qhs_qhs_policy');
+	gr.addQuery('sys_id',current.document_id);
+	gr.query();
+
+	var mail_html = '';
+	var baseURL = gs.getProperty('glide.servlet.uri');
+	
+	if(gr.next()){
+		mail_html = "<a href=" + baseURL + gr.getLink() +">" + 'LINK' + "</a>";
+	}
+	
+	template.print(mail_html);
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-22 09:41:50</sys_created_on>
+        <sys_id>0e40a02a87db7c5005ec65750cbb35e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>QHS - Get Apporving Policy Link</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_email_0e40a02a87db7c5005ec65750cbb35e8</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-22 09:45:33</sys_updated_on>
+    </sys_script_email>
+</record_update>

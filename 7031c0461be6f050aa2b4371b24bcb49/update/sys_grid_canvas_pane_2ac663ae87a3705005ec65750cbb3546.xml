@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA My Policies - New Tab">5cc6af6e87a3705005ec65750cbb3580</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 04-11-2021 12:24:49">66c663ae87a3705005ec65750cbb3543</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-11-04 10:24:49</sys_created_on>
+        <sys_id>2ac663ae87a3705005ec65750cbb3546</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>5cc6af6e87a3705005ec65750cbb3580</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_2ac663ae87a3705005ec65750cbb3546</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-11-04 10:27:56</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

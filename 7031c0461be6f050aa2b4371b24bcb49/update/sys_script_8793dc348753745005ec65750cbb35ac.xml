@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sysapproval_approver</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sysapproval_approver">state=rejected^ORstate=requested^ORstateCHANGESTOapproved^EQ<item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="rejected"/>
+            <item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="requested"/>
+            <item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="approved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>QHS Copy Attatchemts to Policy</name>
+        <order>10</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+		
+	var old_attachments = current.x_epats_qhs_qhs_attatchments_included;
+	
+	old_attachments = old_attachments.split(',');
+	
+	if (old_attachments.length>0){
+		var gsa = new GlideSysAttachment();
+
+		var att = new GlideRecord('sys_attachment');
+		att.addQuery('table_name','sysapproval_approver');
+		att.addQuery("table_sys_id",current.sys_id);
+		att.query();
+		
+		
+
+		while(att.next()){
+			for (var i=0; i<old_attachments.length; i++){
+				if (old_attachments[i]==att.sys_id){
+					gsa.deleteAttachment(att.sys_id);
+				}
+			}
+		}
+	}
+	
+	GlideSysAttachment.copy('sysapproval_approver', current.sys_id, 'x_epats_qhs_qhs_policy', current.document_id);
+	
+	att = new GlideRecord('sys_attachment');
+	att.addQuery('table_name','sysapproval_approver');
+	att.addQuery("table_sys_id",current.sys_id);
+	att.query();
+
+	while(att.next()){
+		gsa.deleteAttachment(att.sys_id);		
+	}
+	
+	GlideSysAttachment.copy('x_epats_qhs_qhs_policy', current.document_id, 'sysapproval_approver', current.sys_id);
+	
+	var new_attachments = '';
+	
+	gsa = new GlideSysAttachment();
+
+	att = new GlideRecord('sys_attachment');
+	att.addQuery('table_name','sysapproval_approver');
+	att.addQuery("table_sys_id",current.sys_id);
+	att.query();
+
+	while(att.next()){
+		new_attachments = new_attachments + ',' + att.sys_id;
+	}
+	
+	if (new_attachments.length>0){
+		new_attachments = new_attachments.substr(1,new_attachments.length);
+	}
+	
+	current.x_epats_qhs_qhs_attatchments_included = new_attachments;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-16 22:18:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8793dc348753745005ec65750cbb35ac</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>QHS Copy Attatchemts to Policy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_8793dc348753745005ec65750cbb35ac</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-22 05:36:40</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8793dc348753745005ec65750cbb35ac"/>
+</record_update>

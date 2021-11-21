@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>QHS Policy</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>QHS Policy</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">435b29b7db00001009d360850596196d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-13 11:32:54</sys_created_on>
+        <sys_id>b8b3cc421b2af050aa2b4371b24bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS Policy</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_wizard_answer_b8b3cc421b2af050aa2b4371b24bcb3c</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-13 11:32:54</sys_updated_on>
+        <table/>
+        <target_url>x_epats_qhs_qhs_policy.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_wizard_answer_b8b3cc421b2af050aa2b4371b24bcb3c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>QHS Policy</answer><button_label/><dependent_value/><element/><name>QHS Policy</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">435b29b7db00001009d360850596196d</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>lamprou.sch@empedus.eu</sys_created_by><sys_created_on>2021-09-13 11:32:54</sys_created_on><sys_id>b8b3cc421b2af050aa2b4371b24bcb3c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>QHS Policy</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_wizard_answer_b8b3cc421b2af050aa2b4371b24bcb3c</sys_update_name><sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by><sys_updated_on>2021-09-13 11:32:54</sys_updated_on><table/><target_url>x_epats_qhs_qhs_policy.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>556751995</payload_hash>
+        <record_name>QHS Policy</record_name>
+        <reverted_from/>
+        <source>ac00e5031b123010aa2b4371b24bcb04</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-09-04 10:34:26</sys_created_on>
+        <sys_id>f64604971beef850aa2b4371b24bcb93</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17bb05faf500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>b6460497b3eef8505a218c4e2a863b93</update_guid>
+        <update_guid_history>b6460497b3eef8505a218c4e2a863b93:556751995</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-17 08:56:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>c38f552f1fce4c04b2a551e32f89f481</sys_id>
+        <sys_metadata>b8b3cc421b2af050aa2b4371b24bcb3c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS Policy</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="Task">435b29b7db00001009d360850596196d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_b8b3cc421b2af050aa2b4371b24bcb3c</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_b8b3cc421b2af050aa2b4371b24bcb3c">f64604971beef850aa2b4371b24bcb93</sys_update_version>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-17 08:56:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

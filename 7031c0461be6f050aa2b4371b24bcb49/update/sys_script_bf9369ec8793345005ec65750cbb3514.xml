@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_epats_qhs_qhs_policy</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_epats_qhs_qhs_policy">armodios_managerVALCHANGES^armodios_managerISNOTEMPTY^NQu_owning_group_qhsANYTHING^department_directorISEMPTY^NQu_owner_qhsVALCHANGES^u_owner_qhsISNOTEMPTY^NQarmodios_managerISEMPTY^ORu_owner_qhsISEMPTY^ORqhs_directorISEMPTY^ORqhs_managerISEMPTY^ORgeneral_directorISEMPTY^NQopened_byVALCHANGES^opened_byANYTHING^EQ<item endquery="false" field="armodios_manager" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="armodios_manager" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item display_value="-- None --" endquery="false" field="u_owning_group_qhs" goto="false" newquery="true" operator="ANYTHING" or="false" value=""/>
+            <item endquery="false" field="department_director" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_owner_qhs" goto="false" newquery="true" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="u_owner_qhs" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="armodios_manager" goto="false" newquery="true" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_owner_qhs" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+            <item endquery="false" field="qhs_director" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+            <item endquery="false" field="qhs_manager" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+            <item endquery="false" field="general_director" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+            <item endquery="false" field="opened_by" goto="false" newquery="true" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="opened_by" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>QHS - Autofill Managers/Directors</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	if (current.u_owner_qhs != previous.u_owner_qhs){
+		var groups = ['AFC','CA','CON','DEV','GM','GMI','HR','ICT','INSEC','LEG','MB','PROC','QHS','STRAT-REG'];
+
+		for (var i=0;i<groups.length;i++){
+			var temp_bool = false;
+			var g_gr = new GlideRecord('sys_user_group');
+			g_gr.addQuery('name',groups[i]);
+			g_gr.query();
+			if (g_gr.next()){
+				var u_gr = new GlideRecord('sys_user_grmember');
+				u_gr.addQuery('user',current.u_owner_qhs);
+				u_gr.addQuery('group',g_gr.sys_id);
+				u_gr.query();
+				
+				if (u_gr.next()){
+					current.u_owning_group_qhs = groups[i];
+					temp_bool = true;
+				}
+				
+			}
+			if (temp_bool){
+				break;
+			}
+		}
+	}
+	var dieuthinsh = current.u_owning_group_qhs;
+		
+	var gr = new GlideRecord('sys_user_group');
+	gr.addQuery('name', 'QHS');
+	gr.query();
+	
+	if (gr.next()){
+		current.qhs_director = gr.x_epats_qhs_director;
+		current.qhs_manager = gr.manager;
+	}
+	
+	gr = new GlideRecord('sys_user_group');
+	gr.addQuery('name', current.u_owning_group_qhs);
+	gr.query();
+	
+	if (gr.next()){
+		//current.u_owner_qhs = gr.manager;
+		current.department_director = gr.manager;
+		current.armodios_manager = gr.manager;
+		current.owning_group = gr.sys_id;
+		
+		if (current.u_owning_group_qhs=='DEV' || current.u_owning_group_qhs=='CON' || current.u_owning_group_qhs=='GMI'){
+			current.department_director_thes = gr.x_epats_qhs_director;
+		}
+		else{
+			current.department_director_thes = '';
+		}
+		
+	}
+	
+	gr = new GlideRecord('sys_user_group');
+	gr.addQuery('name', 'LEG');
+	gr.query();
+	
+	if (gr.next()){
+		current.leg_group = gr.sys_id;
+	}
+	
+	gr = new GlideRecord('sys_user_group');
+	gr.addQuery('name', 'CA');
+	gr.query();
+	
+	if (gr.next()){
+		current.ca_group = gr.sys_id;
+	}
+	
+	if (current.is_revise_program){
+		current.assigned_to = current.armodios_manager;
+		current.u_owner_qhs = current.qhs_manager;
+		current.opened_by = current.qhs_manager;
+	}
+	else{
+		if (!current.u_owner_qhs){
+			current.u_owner_qhs = current.opened_by;
+		}
+	}
+	
+	gr = new GlideRecord('sys_user');
+	gr.addQuery('title', 'ΓΕΝΙΚΟΣ ΔΙΕΥΘΥΝΤΗΣ');
+	gr.query();
+	
+	if (gr.next()){
+		current.general_director = gr.sys_id;
+	}
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-16 09:30:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf9369ec8793345005ec65750cbb3514</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>QHS - Autofill Managers/Directors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_bf9369ec8793345005ec65750cbb3514</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-17 09:52:22</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=bf9369ec8793345005ec65750cbb3514"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>bf9369ec8793345005ec65750cbb3514</documentkey>
+        <fieldname>message</fieldname>
+        <language>el</language>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 09:21:40</sys_created_on>
+        <sys_id>e5589bea8763705005ec65750cbb3568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 09:21:40</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

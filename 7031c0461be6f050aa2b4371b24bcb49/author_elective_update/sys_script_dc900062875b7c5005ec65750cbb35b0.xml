@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_epats_qhs_qhs_policy</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_epats_qhs_qhs_policy">u_policies_qhsISNOTEMPTY^EQ<item endquery="false" field="u_policies_qhs" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Αναθεωρηση απο record producer</name>
+        <order>1</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord('x_epats_qhs_qhs_policy');
+	gr.addQuery('sys_id', current.u_policies_qhs);
+	gr.query();
+	
+	if (gr.next()){
+		gr.setValue('u_journal_2', 'Αναθεώρηση εγγράφου');
+		gr.setValue('assigned_to',gr.getValue('sys_created_by'));
+		gr.setValue('procedure_2','update');
+		gr.setValue('state','draft');
+		//gr.setValue('sys_created_by',gs.getUserID());
+		gr.setValue('u_policies_qhs',current.sys_id);
+		gr.update();
+	}
+	
+	current.deleteRecord();
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-22 07:33:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc900062875b7c5005ec65750cbb35b0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Αναθεωρηση απο record producer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_dc900062875b7c5005ec65750cbb35b0</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-22 08:06:50</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=dc900062875b7c5005ec65750cbb35b0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_script_dc900062875b7c5005ec65750cbb35b0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_epats_qhs_qhs_policy&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_epats_qhs_qhs_policy"&gt;u_policies_qhsISNOTEMPTY^EQ&lt;item endquery="false" field="u_policies_qhs" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Αναθεωρηση απο record producer&lt;/name&gt;&lt;order&gt;1&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr = new GlideRecord('x_epats_qhs_qhs_policy');
+	gr.addQuery('sys_id', current.u_policies_qhs);
+	gr.query();
+	
+	if (gr.next()){
+		gr.setValue('u_journal_2', 'Αναθεώρηση εγγράφου');
+		gr.setValue('assigned_to',gr.getValue('sys_created_by'));
+		gr.setValue('procedure_2','update');
+		gr.setValue('state','draft');
+		//gr.setValue('sys_created_by',gs.getUserID());
+		gr.setValue('u_policies_qhs',current.sys_id);
+		gr.update();
+	}
+	
+	current.deleteRecord();
+	
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-22 07:33:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dc900062875b7c5005ec65750cbb35b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Αναθεωρηση απο record producer&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="QHS" source="x_epats_qhs"&gt;7031c0461be6f050aa2b4371b24bcb49&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="QHS"&gt;7031c0461be6f050aa2b4371b24bcb49&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_dc900062875b7c5005ec65750cbb35b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-22 08:06:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dc900062875b7c5005ec65750cbb35b0"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-843890592</payload_hash>
+        <record_name>Αναθεωρηση απο record producer</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-22 08:06:50</sys_created_on>
+        <sys_id>d28a40ee875b7c5005ec65750cbb359f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ca709ce610000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-22 08:06:50</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>d68a40ee805b7c509bd84bac75ff509e</update_guid>
+        <update_guid_history>d68a40ee805b7c509bd84bac75ff509e:-843890592,df5780ea675b7c50981843b881a41e44:1194468505,031788aa375b7c50a5ecada6235cbce2:558414979,21b60c6a545b7c50417edf3f6523d6a1:-734731844,7376886a5d5b7c5051f6c2c08477e315:1267215732,6706cc2a755b7c50a488d18c28065b01:478681309,00c5842a845b7c50b9862f1422b548da:-988696153,28e38466065b7c50c992138dc43f77b4:-1013719737,5ef2c026c55b7c508f55d22a53ab3298:-1965971083</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-22 08:39:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1accdafdabb042c4842a75e4ee741c84</sys_id>
+        <sys_metadata>dc900062875b7c5005ec65750cbb35b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Αναθεωρηση απο record producer</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="QHS Policy">e70608d31beef850aa2b4371b24bcbaf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_script_dc900062875b7c5005ec65750cbb35b0</sys_update_name>
+        <sys_update_version display_value="sys_script_dc900062875b7c5005ec65750cbb35b0">d28a40ee875b7c5005ec65750cbb359f</sys_update_version>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-22 08:39:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

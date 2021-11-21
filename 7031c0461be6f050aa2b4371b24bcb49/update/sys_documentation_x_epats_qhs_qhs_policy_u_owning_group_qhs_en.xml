@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_owning_group_qhs" label="Department" language="en" table="x_epats_qhs_qhs_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_owning_group_qhs</element>
+            <help/>
+            <hint/>
+            <label>Department</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <plural>Departments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 16:10:44</sys_created_on>
+            <sys_id>e203b9c21bc37810aa2b4371b24bcb1f</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Department</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_documentation_x_epats_qhs_qhs_policy_u_owning_group_qhs_en</sys_update_name>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-11-04 06:05:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

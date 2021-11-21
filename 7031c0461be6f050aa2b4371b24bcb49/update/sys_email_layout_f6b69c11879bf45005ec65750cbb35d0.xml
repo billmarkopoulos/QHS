@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description/>
+        <layout><![CDATA[<table style="width: 100%; text-align: center; max-width: 800px; margin: auto;">
+<tbody>
+<tr>
+<td style="color: #ffffff; height: 60px; text-align: left; border-bottom: 1px solid #cbcbcb; background-color: #ffffff; padding: 10px 0px 10px 30px;"><img style="align: baseline;" title="" src="EDA_THESS_LOGO.pngx" alt="" width="525" height="144" align="baseline" border="" hspace="" vspace="" /></td>
+</tr>
+<tr>
+<td style="color: #2e2e2e; text-align: left; font-size: 16px; background-color: #ffffff; padding: 25px 0px 10px 30px;">
+<p class="p1">${notification:body}</p>
+</td>
+</tr>
+<tr>
+<td style="background-color: #ffffff; padding-left: 30px;">
+<div style="text-align: left;"><span style="font-family: helvetica;"><span style="font-size: 10pt; color: #333333;"></span></span><br /></div>
+<div style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 12pt;"><span style="color: #333333;">Comments:</span></span></div>
+<div style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 12pt;"><span style="color: #333333;">${sysapproval.description}</span></span></div>
+<div style="text-align: left;"><hr /></div>
+<div style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 12pt;"><span style="color: #333333;">Approval Activity:</span></span></div>
+<div style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 12pt;"><span style="color: #333333;">${mail_script:approval_activity}</span></span></div>
+<div style="text-align: left;"><hr /></div>
+<div style="text-align: left;"><br /></div>
+<div style="text-align: left;"><span style="font-family: helvetica;"><span style="font-size: 10pt; color: #333333;"></span></span><br /></div>
+<j></j>
+<table style="text-align: center; background-color: #002858; border-color: #82c9b8; border-radius: 5px; color: white; height: 25px; width: 374px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="text-align: center; color: #ffffff; padding-left: 20px; padding-right: 20px; font-size: 16px; width: 326.8px; height: 25px;"><span style="color: #ffffff;">${mailto:mailto.approval}</span></td>
+</tr>
+</tbody>
+</table>
+<br />
+<p><br /></p>
+<j></j>
+<table style="text-align: center; background-color: #002858; border-color: #82c9b8; border-radius: 5px; color: white; height: 35px; width: 376px;">
+<tbody>
+<tr>
+<td style="text-align: center; color: #ffffff; padding-left: 20px; padding-right: 20px; font-size: 16px; width: 334px;"><span style="color: #ffffff;">${mailto:mailto.rejection}</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left;"><br /></p>
+</td>
+<td style="text-align: center; height: 35px;"></td>
+</tr>
+<tr>
+<td style="color: #4a4a4a; height: 50px; text-align: left; font-size: 16px; background-color: #ffffff; padding: 30px 0px 0px 30px;">You can see the full info of the record by clicking here: ${sysapproval.URI_REF}</td>
+</tr>
+</tbody>
+</table>]]></layout>
+        <name>Approval EDA</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-18 11:50:02</sys_created_on>
+        <sys_id>f6b69c11879bf45005ec65750cbb35d0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Approval EDA</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_email_layout_f6b69c11879bf45005ec65750cbb35d0</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-18 16:44:52</sys_updated_on>
+    </sys_email_layout>
+</record_update>

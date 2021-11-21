@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>true</active>
+        <activity_stages>{"activities":{},"stages":{},"ends":["7a10e710879bf05005ec65750cbb352b"],"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>ba10e710879bf05005ec65750cbb3529,686ceb1c879bf05005ec65750cbb3548,7a10e710879bf05005ec65750cbb352b</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>ba10e710879bf05005ec65750cbb3529,686ceb1c879bf05005ec65750cbb3548,7a10e710879bf05005ec65750cbb352b</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>QHS - Manager's Approval</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">ba10e710879bf05005ec65750cbb3529</start>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-15 23:53:35</sys_created_on>
+        <sys_id>5cdf1710879bf05005ec65750cbb3588</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:47</sys_updated_on>
+        <table>x_epats_qhs_qhs_policy</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="QHS - Manager's Approval">f210e710879bf05005ec65750cbb3528</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description/>
+        <name>QHS - Manager's Approval</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-15 23:53:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f210e710879bf05005ec65750cbb3528</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS - Manager's Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>wf_workflow_f210e710879bf05005ec65750cbb3528</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-15 23:53:35</sys_updated_on>
+        <table>x_epats_qhs_qhs_policy</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>1st approval from manager </name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>686ceb1c879bf05005ec65750cbb3548</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:38</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="QHS - Manager's Approval">5cdf1710879bf05005ec65750cbb3588</workflow_version>
+        <x>194</x>
+        <y>49</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=686ceb1c879bf05005ec65750cbb3548"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>30bc675c879bf05005ec65750cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>34bc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Document Table">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>34bceb1c879bf05005ec65750cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>38bc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>3cbc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Users">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>70bc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>38fa64edc0a8016400f4a5724b0434b8</value>
+        <variable display_value="Schedule">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>70bceb1c879bf05005ec65750cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="Approval Script">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>74bc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>78bc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>7cbc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+answer = [];&#13;
+    var user_array = [&#13;
+    {id: 'edd6a460dbc5f2405feeff3dbf961980', tomeas: 'MB'},&#13;
+    {id: '14886c60dbc5f2405feeff3dbf9619a2', tomeas: 'GMI'},&#13;
+    {id: '168828284f09724008a4fcb28110c7de', tomeas: 'PROC'},&#13;
+	{id: 'd688e4284f09724008a4fcb28110c7eb', tomeas: 'CON'},&#13;
+    {id: '30c66c644f09724008a4fcb28110c7d6', tomeas: 'STRAT/REG'},&#13;
+    {id: '168828284f09724008a4fcb28110c7de', tomeas: 'HR'},&#13;
+	{id: '45c620284f09724008a4fcb28110c721', tomeas: 'QHS'},&#13;
+    {id: '09d3dc42db16b6006815f48dae961932', tomeas: 'AFC'},&#13;
+    {id: 'f2c660284f09724008a4fcb28110c72e', tomeas: 'ICT'},&#13;
+	{id: 'b668e4284f09724008a4fcb28110c728', tomeas: 'LEG'},&#13;
+    {id: '0f6860284f09724008a4fcb28110c7f0', tomeas: 'CA'},&#13;
+    {id: '1368e860dbc5f2405feeff3dbf9619fb', tomeas: 'DEV'},	&#13;
+		&#13;
+];&#13;
+&#13;
+for (var i = 0; i &lt; user_array.length; i++) {&#13;
+    if(current.thesi.u_dieuthinsi == user_array[i].tomeas){&#13;
+        answer.push(user_array[i].id);&#13;
+    }&#13;
+}&#13;
+</value>
+        <variable display_value="Additional approvers script">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b0bc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b4bc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b8bc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b8bceb1c879bf05005ec65750cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Column">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>bcbc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>bcbceb1c879bf05005ec65750cbb35c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f0bc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Document ID">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f0bc675c879bf05005ec65750cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f0bceb1c879bf05005ec65750cbb35c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f4bc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Wait for">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f4bceb1c879bf05005ec65750cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f8bc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>fcbc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Approval Journal Column">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>38bc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Condition">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f4bc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Wait for">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b8bceb1c879bf05005ec65750cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Column">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f0bc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Document ID">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>34bc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Document Table">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f0bceb1c879bf05005ec65750cbb35c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>30bc675c879bf05005ec65750cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b4bc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>3cbc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Users">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b0bc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>fcbc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Approval Journal Column">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b8bc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>70bc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>38fa64edc0a8016400f4a5724b0434b8</value>
+        <variable display_value="Schedule">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>74bc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f8bc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>bcbc675c879bf05005ec65750cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>34bceb1c879bf05005ec65750cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f0bc675c879bf05005ec65750cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>f4bceb1c879bf05005ec65750cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>78bc675c879bf05005ec65750cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>70bceb1c879bf05005ec65750cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="Approval Script">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>bcbceb1c879bf05005ec65750cbb35c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>686ceb1c879bf05005ec65750cbb3548</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>7cbc675c879bf05005ec65750cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+answer = [];&#13;
+    var user_array = [&#13;
+    {id: 'edd6a460dbc5f2405feeff3dbf961980', tomeas: 'MB'},&#13;
+    {id: '14886c60dbc5f2405feeff3dbf9619a2', tomeas: 'GMI'},&#13;
+    {id: '168828284f09724008a4fcb28110c7de', tomeas: 'PROC'},&#13;
+	{id: 'd688e4284f09724008a4fcb28110c7eb', tomeas: 'CON'},&#13;
+    {id: '30c66c644f09724008a4fcb28110c7d6', tomeas: 'STRAT/REG'},&#13;
+    {id: '168828284f09724008a4fcb28110c7de', tomeas: 'HR'},&#13;
+	{id: '45c620284f09724008a4fcb28110c721', tomeas: 'QHS'},&#13;
+    {id: '09d3dc42db16b6006815f48dae961932', tomeas: 'AFC'},&#13;
+    {id: 'f2c660284f09724008a4fcb28110c72e', tomeas: 'ICT'},&#13;
+	{id: 'b668e4284f09724008a4fcb28110c728', tomeas: 'LEG'},&#13;
+    {id: '0f6860284f09724008a4fcb28110c7f0', tomeas: 'CA'},&#13;
+    {id: '1368e860dbc5f2405feeff3dbf9619fb', tomeas: 'DEV'},	&#13;
+		&#13;
+];&#13;
+&#13;
+for (var i = 0; i &lt; user_array.length; i++) {&#13;
+    if(current.thesi.u_dieuthinsi == user_array[i].tomeas){&#13;
+        answer.push(user_array[i].id);&#13;
+    }&#13;
+}&#13;
+</value>
+        <variable display_value="Additional approvers script">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="1st approval from manager ">686ceb1c879bf05005ec65750cbb3548</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>30bc675c879bf05005ec65750cbb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="DELETE">
+        <activity display_value="1st approval from manager ">686ceb1c879bf05005ec65750cbb3548</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:37</sys_created_on>
+        <sys_id>b4bc675c879bf05005ec65750cbb3598</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:37</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-15 23:53:35</sys_created_on>
+        <sys_id>ba10e710879bf05005ec65750cbb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-15 23:53:35</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="QHS - Manager's Approval">5cdf1710879bf05005ec65750cbb3588</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=ba10e710879bf05005ec65750cbb3529"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Begin">ba10e710879bf05005ec65750cbb3529</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-15 23:53:36</sys_created_on>
+        <sys_id>3e10e710879bf05005ec65750cbb352a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-15 23:53:36</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-15 23:53:36</sys_created_on>
+        <sys_id>7a10e710879bf05005ec65750cbb352b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-15 23:53:36</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="QHS - Manager's Approval">5cdf1710879bf05005ec65750cbb3588</workflow_version>
+        <x>400</x>
+        <y>150</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=7a10e710879bf05005ec65750cbb352b"/>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">3e10e710879bf05005ec65750cbb352a</condition>
+        <from display_value="Begin">ba10e710879bf05005ec65750cbb3529</from>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-15 23:53:36</sys_created_on>
+        <sys_id>7210e710879bf05005ec65750cbb352c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:38</sys_updated_on>
+        <to display_value="1st approval from manager ">686ceb1c879bf05005ec65750cbb3548</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Approved">30bc675c879bf05005ec65750cbb3597</condition>
+        <from display_value="1st approval from manager ">686ceb1c879bf05005ec65750cbb3548</from>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:38</sys_created_on>
+        <sys_id>85bcafd4879bf05005ec65750cbb3505</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:38</sys_updated_on>
+        <to display_value="End">7a10e710879bf05005ec65750cbb352b</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="DELETE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-15 23:53:35</sys_created_on>
+        <sys_id>7a10e710879bf05005ec65750cbb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-15 23:53:35</sys_updated_on>
+        <workflow_version display_value="QHS - Manager's Approval">5cdf1710879bf05005ec65750cbb3588</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="DELETE" query="workflow=f210e710879bf05005ec65750cbb3528^sys_id!=5cdf1710879bf05005ec65750cbb3588">
+        <published>false</published>
+    </wf_workflow_version>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>wf_workflow_f210e710879bf05005ec65750cbb3528</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;&lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;activity_stages&gt;{"activities":{},"stages":{},"ends":["7a10e710879bf05005ec65750cbb352b"],"subflows":[]}&lt;/activity_stages&gt;&lt;after_business_rules&gt;false&lt;/after_business_rules&gt;&lt;checked_out/&gt;&lt;checked_out_by/&gt;&lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;&lt;condition/&gt;&lt;condition_type&gt;run_match&lt;/condition_type&gt;&lt;description/&gt;&lt;expected_sequences&gt;ba10e710879bf05005ec65750cbb3529,686ceb1c879bf05005ec65750cbb3548,7a10e710879bf05005ec65750cbb352b&lt;/expected_sequences&gt;&lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;&lt;expected_time_type/&gt;&lt;full_sequences&gt;ba10e710879bf05005ec65750cbb3529,686ceb1c879bf05005ec65750cbb3548,7a10e710879bf05005ec65750cbb352b&lt;/full_sequences&gt;&lt;journal/&gt;&lt;max_activity_count&gt;100&lt;/max_activity_count&gt;&lt;name&gt;QHS - Manager's Approval&lt;/name&gt;&lt;not_cacheable&gt;false&lt;/not_cacheable&gt;&lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;&lt;order&gt;100&lt;/order&gt;&lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;&lt;published&gt;true&lt;/published&gt;&lt;relative_duration/&gt;&lt;requires_ert&gt;true&lt;/requires_ert&gt;&lt;run_multiple&gt;false&lt;/run_multiple&gt;&lt;schedule/&gt;&lt;stage_field/&gt;&lt;stage_order&gt;computed&lt;/stage_order&gt;&lt;start display_value="Begin"&gt;ba10e710879bf05005ec65750cbb3529&lt;/start&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-15 23:53:35&lt;/sys_created_on&gt;&lt;sys_id&gt;5cdf1710879bf05005ec65750cbb3588&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:47&lt;/sys_updated_on&gt;&lt;table&gt;x_epats_qhs_qhs_policy&lt;/table&gt;&lt;timezone/&gt;&lt;validated&gt;false&lt;/validated&gt;&lt;workflow display_value="QHS - Manager's Approval"&gt;f210e710879bf05005ec65750cbb3528&lt;/workflow&gt;&lt;/wf_workflow_version&gt;&lt;wf_workflow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;description/&gt;&lt;name&gt;QHS - Manager's Approval&lt;/name&gt;&lt;preview/&gt;&lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-15 23:53:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f210e710879bf05005ec65750cbb3528&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;QHS - Manager's Approval&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="QHS" source="x_epats_qhs"&gt;7031c0461be6f050aa2b4371b24bcb49&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="QHS"&gt;7031c0461be6f050aa2b4371b24bcb49&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_f210e710879bf05005ec65750cbb3528&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-15 23:53:35&lt;/sys_updated_on&gt;&lt;table&gt;x_epats_qhs_qhs_policy&lt;/table&gt;&lt;template&gt;false&lt;/template&gt;&lt;vars/&gt;&lt;/wf_workflow&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Approval - User"&gt;35433da80a0a029a0028c639a1e51eb4&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;3&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;1st approval from manager &lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;686ceb1c879bf05005ec65750cbb3548&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:38&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="QHS - Manager's Approval"&gt;5cdf1710879bf05005ec65750cbb3588&lt;/workflow_version&gt;&lt;x&gt;194&lt;/x&gt;&lt;y&gt;49&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=686ceb1c879bf05005ec65750cbb3548"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;115&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;30bc675c879bf05005ec65750cbb3596&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date based on"&gt;a76680b9c0a8006661b107d0f21fae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;104&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;34bc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Document Table"&gt;e37a96e80a0004f978b47d2d6c5e0b22&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;34bceb1c879bf05005ec65750cbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone"&gt;a775f59ac0a8006665d72362ae687035&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;38bc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Condition"&gt;4485eef70a6a803f6bc4bafa9e999640&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;3cbc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Users"&gt;c35e4cc40a0a0ba96248a7098ec9cb06&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;70bc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;38fa64edc0a8016400f4a5724b0434b8&lt;/value&gt;&lt;variable display_value="Schedule"&gt;a7754e91c0a800664938d0ef6d2664d7&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1370&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;70bceb1c879bf05005ec65750cbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&amp;#13;
+//&amp;#13;
+//    counts.total = total number of users that are part of this approval&amp;#13;
+//    counts.approved = # of users that approved so far&amp;#13;
+//    counts.rejected = # of users that rejected so far&amp;#13;
+//    counts.requested = # of users that are pending approval&amp;#13;
+//    counts.not_requested = # of users that are not pending approval&amp;#13;
+//    counts.not_required = # of users that approval is not required&amp;#13;
+//&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Approval Script"&gt;02c86d780a0a0b261e6a356bc893d348&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;74bc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Duration"&gt;a769a182c0a8006629db7fa3fc2a863d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1360&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;78bc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value="Due date script"&gt;a782cde9c0a8006608f39abdd85c8395&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;2050&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;7cbc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//       answer = [];&amp;#13;
+//       answer.push('id1');&amp;#13;
+//       answer.push('id2');&amp;#13;
+answer = [];&amp;#13;
+    var user_array = [&amp;#13;
+    {id: 'edd6a460dbc5f2405feeff3dbf961980', tomeas: 'MB'},&amp;#13;
+    {id: '14886c60dbc5f2405feeff3dbf9619a2', tomeas: 'GMI'},&amp;#13;
+    {id: '168828284f09724008a4fcb28110c7de', tomeas: 'PROC'},&amp;#13;
+	{id: 'd688e4284f09724008a4fcb28110c7eb', tomeas: 'CON'},&amp;#13;
+    {id: '30c66c644f09724008a4fcb28110c7d6', tomeas: 'STRAT/REG'},&amp;#13;
+    {id: '168828284f09724008a4fcb28110c7de', tomeas: 'HR'},&amp;#13;
+	{id: '45c620284f09724008a4fcb28110c721', tomeas: 'QHS'},&amp;#13;
+    {id: '09d3dc42db16b6006815f48dae961932', tomeas: 'AFC'},&amp;#13;
+    {id: 'f2c660284f09724008a4fcb28110c72e', tomeas: 'ICT'},&amp;#13;
+	{id: 'b668e4284f09724008a4fcb28110c728', tomeas: 'LEG'},&amp;#13;
+    {id: '0f6860284f09724008a4fcb28110c7f0', tomeas: 'CA'},&amp;#13;
+    {id: '1368e860dbc5f2405feeff3dbf9619fb', tomeas: 'DEV'},	&amp;#13;
+		&amp;#13;
+];&amp;#13;
+&amp;#13;
+for (var i = 0; i &amp;lt; user_array.length; i++) {&amp;#13;
+    if(current.thesi.u_dieuthinsi == user_array[i].tomeas){&amp;#13;
+        answer.push(user_array[i].id);&amp;#13;
+    }&amp;#13;
+}&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Additional approvers script"&gt;c35e582f0a0a0ba96248a70985207e63&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;310&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b0bc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;reject&lt;/value&gt;&lt;variable display_value="When anyone rejects"&gt;502163410a6a803f0356332b24dc7945&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b4bc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone based on"&gt;a77903a7c0a8006641af7c9b1d34444e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b8bc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule field"&gt;a774138dc0a80066000be7af20961c7d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b8bceb1c879bf05005ec65750cbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;approval&lt;/value&gt;&lt;variable display_value="Approval Column"&gt;e846198f0a0004f91fba434a514ba8b8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;bcbc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date field"&gt;a76b8c6ec0a800664bb14d5d8b9cd7c4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;bcbceb1c879bf05005ec65750cbb35c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Advanced"&gt;02ca01820a0a0b261cf923fb95f5e1d0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;103&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f0bc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Document ID"&gt;e37b77ac0a0004f973283ad13b341c5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f0bc675c879bf05005ec65750cbb3596&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone field"&gt;a7781cb6c0a80066147dc7a5244d5d16&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f0bceb1c879bf05005ec65750cbb35c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule based on"&gt;a77191a4c0a800662b403f7dff5f1bbd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f4bc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;any&lt;/value&gt;&lt;variable display_value="Wait for"&gt;c35e5bdd0a0a0ba96248a709f495c9ae&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1330&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f4bceb1c879bf05005ec65750cbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Groups"&gt;02c618170a0a0b26436f5c2c9f7a3901&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f8bc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value="Relative duration"&gt;a76c6257c0a8006645cff43883470e64&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;330&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;fcbc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;approval_history&lt;/value&gt;&lt;variable display_value="Approval Journal Column"&gt;e863e3b80a0004f911d67787e77e0f16&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;38bc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Condition"&gt;4485eef70a6a803f6bc4bafa9e999640&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f4bc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;any&lt;/value&gt;&lt;variable display_value="Wait for"&gt;c35e5bdd0a0a0ba96248a709f495c9ae&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b8bceb1c879bf05005ec65750cbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;approval&lt;/value&gt;&lt;variable display_value="Approval Column"&gt;e846198f0a0004f91fba434a514ba8b8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;103&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f0bc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Document ID"&gt;e37b77ac0a0004f973283ad13b341c5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;104&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;34bc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Document Table"&gt;e37a96e80a0004f978b47d2d6c5e0b22&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f0bceb1c879bf05005ec65750cbb35c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule based on"&gt;a77191a4c0a800662b403f7dff5f1bbd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;115&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;30bc675c879bf05005ec65750cbb3596&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date based on"&gt;a76680b9c0a8006661b107d0f21fae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b4bc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone based on"&gt;a77903a7c0a8006641af7c9b1d34444e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;3cbc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Users"&gt;c35e4cc40a0a0ba96248a7098ec9cb06&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;310&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b0bc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;reject&lt;/value&gt;&lt;variable display_value="When anyone rejects"&gt;502163410a6a803f0356332b24dc7945&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;330&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;fcbc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;approval_history&lt;/value&gt;&lt;variable display_value="Approval Journal Column"&gt;e863e3b80a0004f911d67787e77e0f16&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b8bc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule field"&gt;a774138dc0a80066000be7af20961c7d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;70bc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;38fa64edc0a8016400f4a5724b0434b8&lt;/value&gt;&lt;variable display_value="Schedule"&gt;a7754e91c0a800664938d0ef6d2664d7&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;74bc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Duration"&gt;a769a182c0a8006629db7fa3fc2a863d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f8bc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value="Relative duration"&gt;a76c6257c0a8006645cff43883470e64&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;bcbc675c879bf05005ec65750cbb3594&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date field"&gt;a76b8c6ec0a800664bb14d5d8b9cd7c4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;34bceb1c879bf05005ec65750cbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone"&gt;a775f59ac0a8006665d72362ae687035&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f0bc675c879bf05005ec65750cbb3596&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone field"&gt;a7781cb6c0a80066147dc7a5244d5d16&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1330&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f4bceb1c879bf05005ec65750cbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Groups"&gt;02c618170a0a0b26436f5c2c9f7a3901&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1360&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;78bc675c879bf05005ec65750cbb3593&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value="Due date script"&gt;a782cde9c0a8006608f39abdd85c8395&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;1370&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;70bceb1c879bf05005ec65750cbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&amp;#13;
+//&amp;#13;
+//    counts.total = total number of users that are part of this approval&amp;#13;
+//    counts.approved = # of users that approved so far&amp;#13;
+//    counts.rejected = # of users that rejected so far&amp;#13;
+//    counts.requested = # of users that are pending approval&amp;#13;
+//    counts.not_requested = # of users that are not pending approval&amp;#13;
+//    counts.not_required = # of users that approval is not required&amp;#13;
+//&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Approval Script"&gt;02c86d780a0a0b261e6a356bc893d348&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;bcbceb1c879bf05005ec65750cbb35c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Advanced"&gt;02ca01820a0a0b261cf923fb95f5e1d0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;686ceb1c879bf05005ec65750cbb3548&lt;/document_key&gt;&lt;order&gt;2050&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;7cbc675c879bf05005ec65750cbb3595&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//       answer = [];&amp;#13;
+//       answer.push('id1');&amp;#13;
+//       answer.push('id2');&amp;#13;
+answer = [];&amp;#13;
+    var user_array = [&amp;#13;
+    {id: 'edd6a460dbc5f2405feeff3dbf961980', tomeas: 'MB'},&amp;#13;
+    {id: '14886c60dbc5f2405feeff3dbf9619a2', tomeas: 'GMI'},&amp;#13;
+    {id: '168828284f09724008a4fcb28110c7de', tomeas: 'PROC'},&amp;#13;
+	{id: 'd688e4284f09724008a4fcb28110c7eb', tomeas: 'CON'},&amp;#13;
+    {id: '30c66c644f09724008a4fcb28110c7d6', tomeas: 'STRAT/REG'},&amp;#13;
+    {id: '168828284f09724008a4fcb28110c7de', tomeas: 'HR'},&amp;#13;
+	{id: '45c620284f09724008a4fcb28110c721', tomeas: 'QHS'},&amp;#13;
+    {id: '09d3dc42db16b6006815f48dae961932', tomeas: 'AFC'},&amp;#13;
+    {id: 'f2c660284f09724008a4fcb28110c72e', tomeas: 'ICT'},&amp;#13;
+	{id: 'b668e4284f09724008a4fcb28110c728', tomeas: 'LEG'},&amp;#13;
+    {id: '0f6860284f09724008a4fcb28110c7f0', tomeas: 'CA'},&amp;#13;
+    {id: '1368e860dbc5f2405feeff3dbf9619fb', tomeas: 'DEV'},	&amp;#13;
+		&amp;#13;
+];&amp;#13;
+&amp;#13;
+for (var i = 0; i &amp;lt; user_array.length; i++) {&amp;#13;
+    if(current.thesi.u_dieuthinsi == user_array[i].tomeas){&amp;#13;
+        answer.push(user_array[i].id);&amp;#13;
+    }&amp;#13;
+}&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Additional approvers script"&gt;c35e582f0a0a0ba96248a70985207e63&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="1st approval from manager "&gt;686ceb1c879bf05005ec65750cbb3548&lt;/activity&gt;&lt;condition&gt;activity.result == 'approved' || activity.result == 'skipped'&lt;/condition&gt;&lt;condition_default display_value="Approved"&gt;586e1fa60a0a0b5c008121ab894f2b06&lt;/condition_default&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Approved&lt;/name&gt;&lt;order&gt;1&lt;/order&gt;&lt;short_description&gt;Approval request was approved&lt;/short_description&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;30bc675c879bf05005ec65750cbb3597&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="1st approval from manager "&gt;686ceb1c879bf05005ec65750cbb3548&lt;/activity&gt;&lt;condition&gt;activity.result == 'rejected'&lt;/condition&gt;&lt;condition_default display_value="Rejected"&gt;586e4ef60a0a0b5c00440b56c014c8a5&lt;/condition_default&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;false&lt;/is_positive&gt;&lt;name&gt;Rejected&lt;/name&gt;&lt;order&gt;2&lt;/order&gt;&lt;short_description&gt;Approval request was rejected&lt;/short_description&gt;&lt;skip_during_generate&gt;true&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:37&lt;/sys_created_on&gt;&lt;sys_id&gt;b4bc675c879bf05005ec65750cbb3598&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:37&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Begin&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-15 23:53:35&lt;/sys_created_on&gt;&lt;sys_id&gt;ba10e710879bf05005ec65750cbb3529&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-15 23:53:35&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="QHS - Manager's Approval"&gt;5cdf1710879bf05005ec65750cbb3588&lt;/workflow_version&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ba10e710879bf05005ec65750cbb3529"/&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Begin"&gt;ba10e710879bf05005ec65750cbb3529&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-15 23:53:36&lt;/sys_created_on&gt;&lt;sys_id&gt;3e10e710879bf05005ec65750cbb352a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-15 23:53:36&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;End&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-15 23:53:36&lt;/sys_created_on&gt;&lt;sys_id&gt;7a10e710879bf05005ec65750cbb352b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-15 23:53:36&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="QHS - Manager's Approval"&gt;5cdf1710879bf05005ec65750cbb3588&lt;/workflow_version&gt;&lt;x&gt;400&lt;/x&gt;&lt;y&gt;150&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=7a10e710879bf05005ec65750cbb352b"/&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;3e10e710879bf05005ec65750cbb352a&lt;/condition&gt;&lt;from display_value="Begin"&gt;ba10e710879bf05005ec65750cbb3529&lt;/from&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-15 23:53:36&lt;/sys_created_on&gt;&lt;sys_id&gt;7210e710879bf05005ec65750cbb352c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:38&lt;/sys_updated_on&gt;&lt;to display_value="1st approval from manager "&gt;686ceb1c879bf05005ec65750cbb3548&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Approved"&gt;30bc675c879bf05005ec65750cbb3597&lt;/condition&gt;&lt;from display_value="1st approval from manager "&gt;686ceb1c879bf05005ec65750cbb3548&lt;/from&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-16 00:48:38&lt;/sys_created_on&gt;&lt;sys_id&gt;85bcafd4879bf05005ec65750cbb3505&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-16 00:48:38&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;7a10e710879bf05005ec65750cbb352b&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;&lt;estimated_run_time/&gt;&lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;&lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;&lt;sys_created_by&gt;lamprou.sch@empedus.eu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-15 23:53:35&lt;/sys_created_on&gt;&lt;sys_id&gt;7a10e710879bf05005ec65750cbb3527&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;lamprou.sch@empedus.eu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-15 23:53:35&lt;/sys_updated_on&gt;&lt;workflow_version display_value="QHS - Manager's Approval"&gt;5cdf1710879bf05005ec65750cbb3588&lt;/workflow_version&gt;&lt;/wf_estimated_runtime_config&gt;&lt;wf_workflow_version action="update_multiple" query="workflow=f210e710879bf05005ec65750cbb3528^sys_id!=5cdf1710879bf05005ec65750cbb3588"&gt;&lt;published&gt;false&lt;/published&gt;&lt;/wf_workflow_version&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2052034324</payload_hash>
+        <record_name>QHS - Manager's Approval</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 00:48:47</sys_created_on>
+        <sys_id>d7bca75c879bf05005ec65750cbb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c86929bd50000001</sys_recorded_at>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 00:48:47</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>13bca75cfa9bf050216ee88bf5c3ec20</update_guid>
+        <update_guid_history>13bca75cfa9bf050216ee88bf5c3ec20:-2052034324</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="QHS - Manager's Approval">7510339087dbf05005ec65750cbb35e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-16 01:03:26</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>16846cc862fd4e3885b12925bcfe3840</sys_id>
+        <sys_metadata>f210e710879bf05005ec65750cbb3528</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS - Manager's Approval</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>wf_workflow_f210e710879bf05005ec65750cbb3528</sys_update_name>
+        <sys_update_version display_value="wf_workflow_f210e710879bf05005ec65750cbb3528">d7bca75c879bf05005ec65750cbb3520</sys_update_version>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-16 01:03:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

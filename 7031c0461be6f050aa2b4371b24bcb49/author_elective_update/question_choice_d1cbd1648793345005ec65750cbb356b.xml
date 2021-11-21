@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Προδιαγραφή υλικού">1d4f3ab71b0f7050aa2b4371b24bcb50</published_ref>
+        <question display_value="Τύπος Εγγράφου">99cbd1648793345005ec65750cbb355f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-16 08:53:54</sys_created_on>
+        <sys_id>d1cbd1648793345005ec65750cbb356b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Προδιαγραφή υλικού</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>question_choice_d1cbd1648793345005ec65750cbb356b</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-16 08:53:54</sys_updated_on>
+        <text>Προδιαγραφή υλικού</text>
+        <value>προδιαγραφή υλικού</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=d1cbd1648793345005ec65750cbb356b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>question_choice_d1cbd1648793345005ec65750cbb356b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref display_value="Προδιαγραφή υλικού">1d4f3ab71b0f7050aa2b4371b24bcb50</published_ref><question display_value="Τύπος Εγγράφου">99cbd1648793345005ec65750cbb355f</question><sys_class_name>question_choice</sys_class_name><sys_created_by>alex</sys_created_by><sys_created_on>2021-10-16 08:53:54</sys_created_on><sys_id>d1cbd1648793345005ec65750cbb356b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Προδιαγραφή υλικού</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>question_choice_d1cbd1648793345005ec65750cbb356b</sys_update_name><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-10-16 08:53:54</sys_updated_on><text>Προδιαγραφή υλικού</text><value>προδιαγραφή υλικού</value></question_choice><fx_price action="delete_multiple" query="id=d1cbd1648793345005ec65750cbb356b"/></record_update>]]></payload>
+        <payload_hash>1878837448</payload_hash>
+        <record_name>Προδιαγραφή υλικού</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-16 08:53:54</sys_created_on>
+        <sys_id>19cbd1648793345005ec65750cbb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c884ebde50000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-16 08:53:54</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>5dcbd1643a933450e3df362f6e01e06c</update_guid>
+        <update_guid_history>5dcbd1643a933450e3df362f6e01e06c:1878837448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Προδιαγραφή υλικού">3f4c51a48793345005ec65750cbb35ca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-16 08:56:15</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>5aabc08605fe486a93d4e75a0d6fd121</sys_id>
+        <sys_metadata>d1cbd1648793345005ec65750cbb356b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Προδιαγραφή υλικού</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="">99cbd1648793345005ec65750cbb355f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>question_choice_d1cbd1648793345005ec65750cbb356b</sys_update_name>
+        <sys_update_version display_value="question_choice_d1cbd1648793345005ec65750cbb356b">19cbd1648793345005ec65750cbb356d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-16 08:56:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

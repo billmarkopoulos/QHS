@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="overdue_general_director_approval" label="Εκπρόθεσμη Έγκριση Διευθυντή" language="en" table="x_epats_qhs_qhs_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>overdue_general_director_approval</element>
+            <help/>
+            <hint/>
+            <label>Εκπρόθεσμη Έγκριση Διευθυντή</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <plural>Εκπρόθεσμη Έγκριση Διευθυντήs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 12:59:25</sys_created_on>
+            <sys_id>8f9326f3873b745005ec65750cbb3589</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Εκπρόθεσμη Έγκριση Διευθυντή</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_documentation_x_epats_qhs_qhs_policy_overdue_general_director_approval_en</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 12:59:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

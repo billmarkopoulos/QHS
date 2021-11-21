@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>copy_worknotes</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy worknotes</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-19 18:29:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ba2c76e9875b785005ec65750cbb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy worknotes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_hub_flow_ba2c76e9875b785005ec65750cbb3549</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-19 18:29:00</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=ba2c76e9875b785005ec65750cbb3549"/>
+    <sys_variable_value action="DELETE" query="document_key=ba2c76e9875b785005ec65750cbb3549"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=ba2c76e9875b785005ec65750cbb3549^sys_idNOT INbe2c722d875b785005ec65750cbb3596"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>ba2c76e9875b785005ec65750cbb3549</id>
+        <name>Copy worknotes</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-19 18:29:00</sys_created_on>
+        <sys_id>be2c722d875b785005ec65750cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-19 18:29:00</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_hub_flow_ba2c76e9875b785005ec65750cbb3549</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>copy_worknotes</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Copy worknotes</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>alex</sys_created_by><sys_created_on>2021-10-19 18:29:00</sys_created_on><sys_domain>global</sys_domain><sys_id>ba2c76e9875b785005ec65750cbb3549</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy worknotes</sys_name><sys_overrides/><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_hub_flow_ba2c76e9875b785005ec65750cbb3549</sys_update_name><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-10-19 18:29:00</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=ba2c76e9875b785005ec65750cbb3549"/><sys_variable_value action="delete_multiple" query="document_key=ba2c76e9875b785005ec65750cbb3549"/><sys_flow_cat_variable_model action="delete_multiple" query="id=ba2c76e9875b785005ec65750cbb3549^sys_idNOT INbe2c722d875b785005ec65750cbb3596"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>ba2c76e9875b785005ec65750cbb3549</id><name>Copy worknotes</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>alex</sys_created_by><sys_created_on>2021-10-19 18:29:00</sys_created_on><sys_id>be2c722d875b785005ec65750cbb3596</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name/><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-10-19 18:29:00</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>1015966791</payload_hash>
+        <record_name>Copy worknotes</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-19 18:29:00</sys_created_on>
+        <sys_id>7e2c722d875b785005ec65750cbb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c99d056de0000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-19 18:29:00</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>762c722d5f5b7850fd22f2e56c3c479b</update_guid>
+        <update_guid_history>762c722d5f5b7850fd22f2e56c3c479b:1015966791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-19 20:36:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>08c20647287d4032bbc041b152e8fd24</sys_id>
+        <sys_metadata>ba2c76e9875b785005ec65750cbb3549</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy worknotes</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_ba2c76e9875b785005ec65750cbb3549</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_ba2c76e9875b785005ec65750cbb3549">7e2c722d875b785005ec65750cbb359b</sys_update_version>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-19 20:36:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

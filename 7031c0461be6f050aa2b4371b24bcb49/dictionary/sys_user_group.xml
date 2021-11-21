@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,ih_process_sync_enabled=true,iterativeDelete=true" defaultsort="-1" label="Group" max_length="40" name="sys_user_group" sizeclass="226" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Director" max_length="32" name="x_epats_qhs_director" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="x_epats_qhs_director"/>
+        </index>
+    </element>
+</database>

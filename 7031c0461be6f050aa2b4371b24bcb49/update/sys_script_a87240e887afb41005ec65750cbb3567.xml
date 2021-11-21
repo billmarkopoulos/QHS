@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_epats_qhs_qhs_policy</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_epats_qhs_qhs_policy">is_revise_program=true^EQ<item endquery="false" field="is_revise_program" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>QHS - Add to watchlist Revise Program</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var user_ids = current.qhs_manager + ',' + current.qhs_director + ',' + current.armodios_manager + ',' + current.u_glide_list_9 + ',' + current.u_glide_list_10;
+	
+	if (current.revise_send_to_general_director){
+		user_ids = user_ids + current.general_director;
+	}
+	
+	var final_wl = '';
+	
+	if (user_ids.length>1){
+		var wl = user_ids.split(',');
+		var added = [];
+		for (var i=0;i<wl.length;i++){
+			var bl=0;
+			for (var j=0;j<added.length;j++){
+				if (wl[i]==added[i]){
+					bl=1;
+				}
+			}
+			if (bl==0){
+				final_wl = final_wl + ',' + wl[i];
+				added.push(wl[i]);
+			}
+		}
+	}
+	
+	current.u_glide_list_1 = final_wl;
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-28 12:44:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a87240e887afb41005ec65750cbb3567</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS - Add to watchlist Revise Program</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_a87240e887afb41005ec65750cbb3567</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-28 12:44:14</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a87240e887afb41005ec65750cbb3567"/>
+</record_update>

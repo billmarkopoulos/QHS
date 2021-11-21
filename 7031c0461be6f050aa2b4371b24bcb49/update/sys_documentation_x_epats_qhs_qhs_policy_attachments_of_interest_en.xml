@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="attachments_of_interest" label="Attachments of Interest" language="en" table="x_epats_qhs_qhs_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>attachments_of_interest</element>
+            <help/>
+            <hint/>
+            <label>Attachments of Interest</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <plural>Attachments of Interests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-06 16:11:42</sys_created_on>
+            <sys_id>d759035f87e3301005ec65750cbb35ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Attachments of Interest</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_documentation_x_epats_qhs_qhs_policy_attachments_of_interest_en</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-06 16:11:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

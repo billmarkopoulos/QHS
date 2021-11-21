@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="is_revision_placeholder" label="Is revision placeholder" language="en" table="x_epats_qhs_qhs_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>is_revision_placeholder</element>
+            <help/>
+            <hint/>
+            <label>Is revision placeholder</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <plural>Is revision placeholders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-07 08:48:06</sys_created_on>
+            <sys_id>3e6d2a2f87e3701005ec65750cbb3528</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is revision placeholder</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_documentation_x_epats_qhs_qhs_policy_is_revision_placeholder_en</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-07 08:48:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

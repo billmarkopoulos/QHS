@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group name="ICT">2fcf4188db5fe3008cd7a155059619a8</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>ICT users</name>
+        <role/>
+        <script/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-22 09:04:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a971cae879b7c5005ec65750cbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ICT users</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>user_criteria_6a971cae879b7c5005ec65750cbb3500</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-22 09:04:04</sys_updated_on>
+        <user/>
+    </user_criteria>
+</record_update>

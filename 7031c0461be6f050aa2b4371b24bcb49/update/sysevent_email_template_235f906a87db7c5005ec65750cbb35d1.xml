@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout display_value="Approval EDA QHS">964f582a87db7c5005ec65750cbb354d</email_layout>
+        <message/>
+        <message_html><![CDATA[<div><span style="font-family: helvetica;"><span style="font-size: 10pt; color: #333333;">Short Description: ${sysapproval.short_description} </span></span></div>
+<div><br /></div>
+<div><span style="font-family: helvetica;"><span style="font-size: 10pt; color: #333333;">Opened by: ${sysapproval.opened_by} </span></span></div>
+<div><br /></div>
+<div><span style="font-family: helvetica;"><span style="font-size: 10pt; color: #333333;"><br /></span></span></div>
+<div><br /></div>
+<div><hr /></div>
+<div><br /></div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Approval  QHS</name>
+        <sms_alternate/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} Approval Request</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-22 09:37:50</sys_created_on>
+        <sys_id>235f906a87db7c5005ec65750cbb35d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval  QHS</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysevent_email_template_235f906a87db7c5005ec65750cbb35d1</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-22 09:37:50</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

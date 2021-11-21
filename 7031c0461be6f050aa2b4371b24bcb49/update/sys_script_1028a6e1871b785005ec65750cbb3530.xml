@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sysapproval_approver</collection>
+        <condition>(current.source_table != '' &amp;&amp; new TableUtils(current.source_table).getAbsoluteBase() != 'task') &amp;&amp; current.state.changes()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Approval Events (Non-Task)</name>
+        <order>1001</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[sendEventsNonTask();
+
+function sendEventsNonTask() {
+   if (current.document_id.getReferenceTable()!='x_epats_qhs_qhs_policy'){
+	   return;
+   }
+   if (!current.state.changes()) 
+      return;
+
+   var event = current.source_table;
+   switch (current.state + "") {    
+      case 'cancelled':
+         event += ".approval.cancelled";
+         gs.eventQueue(event, current, gs.getUserID(), gs.getUserName());
+         break;
+      case 'requested':
+         event += ".approval.approval_mail";
+         gs.eventQueue(event, current, gs.getUserID(), gs.getUserName());
+         updateRecord(current, current.approver.getDisplayValue() + " requested to approve task");
+		 break;
+      case 'rejected':
+         event += ".approval.rejected";
+         gs.eventQueue(event, current, current.state, previous.state);
+         updateRecord(current, current.approver.getDisplayValue() + " rejected the task.", 
+               current.comments.getJournalEntry(-1));
+         notifyMyFriends(current);
+         break;
+      case 'approved':
+         updateRecord(current, current.approver.getDisplayValue() + " approved the task.", 
+               current.comments.getJournalEntry(-1));
+         break;
+      default: 
+   }
+         
+ }
+
+function notifyMyFriends(me) {
+   var friends = new GlideRecord('sysapproval_approver');
+   friends.addQuery('document_id', me.document_id);
+   friends.query();
+   while(friends.next()) {
+      if (friends.approver.toString() != me.approver.toString()) {
+         gs.eventQueue(me.source_table + ".approval.rej.other", me, friends.approver);
+      }
+   }
+}
+
+function updateRecord(me, journal, comments) {
+	// if this is for a group approval, don't log this user action since the Group Approval Activity will handle the logging
+	if (!me.group.nil())
+		return;
+   
+	// For a Non-task, we use the following:
+	// - sysapproval_approver.document_id
+	// - sysapproval_approver.source_table  
+	// - sysapproval_approver.approval_column
+	// - sysapproval_approver.approval_journal_column
+         
+	// only log the user approval activity for workflows when specifically turned on
+	// otherwise, we spam the approval history log when it is almost never desired to track via the approval history journal field
+	var isWorkflow = !me.wf_activity.nil();
+	
+	if (!isWorkflow) {
+		if (me.source_table.nil())
+			return;
+		
+		if (gs.getProperty("glide.approval_engine." + me.source_table.toString()) != "approval_engine")
+			return;
+	} else {
+		if (gs.getProperty("glide.workflow.user_approval_history") != "true")
+			return;
+	}
+
+	if (comments)
+		journal += "\n\n" + gs.getMessage("Approval comments") + ":\n" + comments;
+	
+	var approvingRecord = new GlideRecord(me.source_table);
+	if (approvingRecord.get(me.document_id)) {
+		if (isWorkflow)
+			approvingRecord.setRunEngines(false);
+		
+		if (!me.approval_journal_column.nil()) {
+			if (typeof approvingRecord[me.approval_journal_column].setJournalEntry === 'function') {
+				approvingRecord[me.approval_journal_column].setJournalEntry(journal);
+				approvingRecord.update();
+				return;
+			}
+		}
+		
+		if (typeof approvingRecord.approval_history.setJournalEntry === 'function') {
+			approvingRecord.approval_history.setJournalEntry(journal);
+			approvingRecord.update();
+			return;
+		}
+	}
+}
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-19 17:01:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1028a6e1871b785005ec65750cbb3530</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Approval Events (Non-Task)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_1028a6e1871b785005ec65750cbb3530</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-19 17:07:16</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=1028a6e1871b785005ec65750cbb3530"/>
+</record_update>

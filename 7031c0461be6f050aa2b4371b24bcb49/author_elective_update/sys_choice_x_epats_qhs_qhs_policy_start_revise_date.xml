@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="start_revise_date" table="x_epats_qhs_qhs_policy" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>start_revise_date</element>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:28:18</sys_created_on>
+            <sys_id>dac84af68777305005ec65750cbb35b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>start_revise_date</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_choice_x_epats_qhs_qhs_policy_start_revise_date</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:28:18</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>January</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:28:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4b84ef68777305005ec65750cbb350b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:12</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ιανουάριος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:28:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03c846b68777305005ec65750cbb3586</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:10</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>February</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:28:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25d886f68777305005ec65750cbb3579</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:13</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Φεβρουάριος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:29:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cae8c6f68777305005ec65750cbb3588</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:14</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>March</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:29:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6af88ef68777305005ec65750cbb3597</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:16</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Μάρτιος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:29:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8209823a8777305005ec65750cbb353b</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:17</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>April</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:29:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5198af68777305005ec65750cbb359d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:19</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Απρίλιος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:30:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a629063a8777305005ec65750cbb354e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:31</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>May</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:30:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1149063a8777305005ec65750cbb3567</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:43</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Μάιος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:30:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a859c63a8777305005ec65750cbb35d1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:30:55</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>June</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:31:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9359063a8777305005ec65750cbb3599</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:31:05</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ιούνιος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:31:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca690a3a8777305005ec65750cbb35ed</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:31:18</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>July</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:31:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58794a3a8777305005ec65750cbb353e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:31:29</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ιούλιος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:31:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73790a3a8777305005ec65750cbb35f4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:31:43</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>August</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:31:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6898a3a8777305005ec65750cbb35c4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:31:56</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Αύγουστος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:32:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a994e3a8777305005ec65750cbb359b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:32:08</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>September</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:32:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38a98e3a8777305005ec65750cbb353c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:32:17</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Σεπτέμβριος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:32:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37a9427a8777305005ec65750cbb3583</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:32:31</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>October</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:32:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52b98e3a8777305005ec65750cbb3521</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:32:41</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Οκτώβριος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65c9427a8777305005ec65750cbb3585</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:32:59</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>November</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:33:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cd9427a8777305005ec65750cbb3579</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:33:08</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Νοέμβριος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:33:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14e90e3a8777305005ec65750cbb355a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:33:21</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>December</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:33:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aee9c27a8777305005ec65750cbb3540</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:33:33</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>start_revise_date</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Δεκέμβριος</label>
+            <language>el</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 08:33:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86f9827a8777305005ec65750cbb354e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 08:33:46</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

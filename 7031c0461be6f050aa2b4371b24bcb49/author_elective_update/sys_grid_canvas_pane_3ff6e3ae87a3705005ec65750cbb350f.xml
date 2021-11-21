@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA My Policies - New Tab">5cc6af6e87a3705005ec65750cbb3580</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 04-11-2021 12:25:43">fff6e3ae87a3705005ec65750cbb350d</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-11-04 10:25:43</sys_created_on>
+        <sys_id>3ff6e3ae87a3705005ec65750cbb350f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5cc6af6e87a3705005ec65750cbb3580</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_3ff6e3ae87a3705005ec65750cbb350f</sys_update_name>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-11-04 10:25:43</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_grid_canvas_pane_3ff6e3ae87a3705005ec65750cbb350f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA My Policies - New Tab">5cc6af6e87a3705005ec65750cbb3580</grid_canvas><height>10</height><portal_widget display_value="Created 04-11-2021 12:25:43">fff6e3ae87a3705005ec65750cbb350d</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>lamprou.sch@empedus.eu</sys_created_by><sys_created_on>2021-11-04 10:25:43</sys_created_on><sys_id>3ff6e3ae87a3705005ec65750cbb350f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>5cc6af6e87a3705005ec65750cbb3580</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_grid_canvas_pane_3ff6e3ae87a3705005ec65750cbb350f</sys_update_name><sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by><sys_updated_on>2021-11-04 10:25:43</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>882951926</payload_hash>
+        <record_name>5cc6af6e87a3705005ec65750cbb3580</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-11-04 10:25:43</sys_created_on>
+        <sys_id>3bf6e3ae87a3705005ec65750cbb3511</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cea7ba2200000001</sys_recorded_at>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-11-04 10:25:43</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>33f6e3ae16a370506d11c0fbb49a5111</update_guid>
+        <update_guid_history>33f6e3ae16a370506d11c0fbb49a5111:882951926</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-11-04 10:25:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>01bae1c2a46b4bec82008f279721c010</sys_id>
+        <sys_metadata>3ff6e3ae87a3705005ec65750cbb350f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5cc6af6e87a3705005ec65750cbb3580</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_3ff6e3ae87a3705005ec65750cbb350f</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_3ff6e3ae87a3705005ec65750cbb350f">3bf6e3ae87a3705005ec65750cbb3511</sys_update_version>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-11-04 10:25:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

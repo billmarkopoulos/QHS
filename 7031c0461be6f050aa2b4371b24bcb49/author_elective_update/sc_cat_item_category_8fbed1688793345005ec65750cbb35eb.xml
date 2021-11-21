@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Δημιουργία Εσωτερικού Εγγράφου">a6bedda48793345005ec65750cbb3512</sc_cat_item>
+        <sc_category display_value="QHS Αναθεώρηση/Δημιουργία Πολιτικών">d03331e01b767490aa2b4371b24bcb96</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-16 09:06:51</sys_created_on>
+        <sys_id>8fbed1688793345005ec65750cbb35eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS Αναθεώρηση/Δημιουργία Πολιτικών.Δημιουργία Εσωτερικού Εγγράφου</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sc_cat_item_category_8fbed1688793345005ec65750cbb35eb</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-16 09:06:51</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sc_cat_item_category_8fbed1688793345005ec65750cbb35eb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Δημιουργία Εσωτερικού Εγγράφου">a6bedda48793345005ec65750cbb3512</sc_cat_item><sc_category display_value="QHS Αναθεώρηση/Δημιουργία Πολιτικών">d03331e01b767490aa2b4371b24bcb96</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>alex</sys_created_by><sys_created_on>2021-10-16 09:06:51</sys_created_on><sys_id>8fbed1688793345005ec65750cbb35eb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>QHS Αναθεώρηση/Δημιουργία Πολιτικών.Δημιουργία Εσωτερικού Εγγράφου</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sc_cat_item_category_8fbed1688793345005ec65750cbb35eb</sys_update_name><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-10-16 09:06:51</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1295005903</payload_hash>
+        <record_name>QHS Αναθεώρηση/Δημιουργία Πολιτικών.Δημιουργία Εσωτερικού Εγγράφου</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-16 09:06:51</sys_created_on>
+        <sys_id>4bbed1688793345005ec65750cbb35ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c885a99810000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-16 09:06:51</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>8fbed168f493345055aad467ebefb5ee</update_guid>
+        <update_guid_history>8fbed168f493345055aad467ebefb5ee:1295005903</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="QHS Αναθεώρηση/Δημιουργία Πολιτικών.New policy">4a6ec1ad8713785005ec65750cbb3552</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-10-19 10:29:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>8c231af3c292443aa88cda2d700f2819</sys_id>
+        <sys_metadata>8fbed1688793345005ec65750cbb35eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS Αναθεώρηση/Δημιουργία Πολιτικών.New policy</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_8fbed1688793345005ec65750cbb35eb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_8fbed1688793345005ec65750cbb35eb">4bbed1688793345005ec65750cbb35ef</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-10-19 10:29:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

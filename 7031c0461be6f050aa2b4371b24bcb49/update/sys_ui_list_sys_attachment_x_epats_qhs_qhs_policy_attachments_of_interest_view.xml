@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="x_epats_qhs_qhs_policy" relationship="" sys_domain="global" table="sys_attachment" version="2" view="attachments_of_interest_view">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>file_name</element>
+            <list_id display_value="sys_attachment" element="NULL" name="sys_attachment" parent="x_epats_qhs_qhs_policy" relationship="NULL" sys_domain="global" view="2483dbd78727301005ec65750cbb3577">6c83dbd78727301005ec65750cbb357a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-06 16:56:02</sys_created_on>
+            <sys_id>ac83dbd78727301005ec65750cbb357b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-06 16:56:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>content_type</element>
+            <list_id display_value="sys_attachment" element="NULL" name="sys_attachment" parent="x_epats_qhs_qhs_policy" relationship="NULL" sys_domain="global" view="2483dbd78727301005ec65750cbb3577">6c83dbd78727301005ec65750cbb357a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-06 16:56:02</sys_created_on>
+            <sys_id>2483dbd78727301005ec65750cbb357c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-06 16:56:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table_name</element>
+            <list_id display_value="sys_attachment" element="NULL" name="sys_attachment" parent="x_epats_qhs_qhs_policy" relationship="NULL" sys_domain="global" view="2483dbd78727301005ec65750cbb3577">6c83dbd78727301005ec65750cbb357a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-06 16:56:02</sys_created_on>
+            <sys_id>a483dbd78727301005ec65750cbb357c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-06 16:56:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table_sys_id</element>
+            <list_id display_value="sys_attachment" element="NULL" name="sys_attachment" parent="x_epats_qhs_qhs_policy" relationship="NULL" sys_domain="global" view="2483dbd78727301005ec65750cbb3577">6c83dbd78727301005ec65750cbb357a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-06 16:56:02</sys_created_on>
+            <sys_id>2883dbd78727301005ec65750cbb357c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-06 16:56:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sys_attachment" element="NULL" name="sys_attachment" parent="x_epats_qhs_qhs_policy" relationship="NULL" sys_domain="global" view="2483dbd78727301005ec65750cbb3577">6c83dbd78727301005ec65750cbb357a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-06 16:56:02</sys_created_on>
+            <sys_id>a883dbd78727301005ec65750cbb357c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-06 16:56:02</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_attachment</name>
+            <parent>x_epats_qhs_qhs_policy</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-06 16:56:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c83dbd78727301005ec65750cbb357a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_attachment</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_ui_list_sys_attachment_x_epats_qhs_qhs_policy_attachments_of_interest_view</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-06 16:56:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Attachments of Interest View" name="attachments_of_interest_view">2483dbd78727301005ec65750cbb3577</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

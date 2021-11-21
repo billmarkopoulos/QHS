@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="DELETE">
+        <access_type>restricted</access_type>
+        <active>false</active>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Δημιουργία/Αναθεώρηση Εγγράφων Σχεδίου Διοίκησης">d03331e01b767490aa2b4371b24bcb96</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Δημιουργία Εσωτερικού Εγγράφου</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Christos  Tokoutsis">62efb3351be6f050aa2b4371b24bcbb4</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b4f547a28723705005ec65750cbb350d&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref display_value="Δημιουργία Εσωτερικού Εγγράφου">212c65641b367490aa2b4371b24bcb47</published_ref>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs>03827d601b767490aa2b4371b24bcbc1</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>draft</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 08:01:21</sys_created_on>
+        <sys_id>b4f547a28723705005ec65750cbb350d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Δημιουργία Εσωτερικού Εγγράφου</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sc_cat_item_producer_b4f547a28723705005ec65750cbb350d</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 08:01:21</sys_updated_on>
+        <table_name>x_epats_qhs_qhs_policy</table_name>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="DELETE" query="documentkey=b4f547a28723705005ec65750cbb350d"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>b4f547a28723705005ec65750cbb350d</documentkey>
+        <fieldname>description</fieldname>
+        <language>el</language>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 08:01:21</sys_created_on>
+        <sys_id>85f547a28723705005ec65750cbb351c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 08:01:21</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>b4f547a28723705005ec65750cbb350d</documentkey>
+        <fieldname>name</fieldname>
+        <language>el</language>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 08:01:21</sys_created_on>
+        <sys_id>89f547a28723705005ec65750cbb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 08:01:21</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Δημιουργία Εσωτερικού Εγγράφου</value>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>b4f547a28723705005ec65750cbb350d</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>el</language>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 08:01:21</sys_created_on>
+        <sys_id>89f547a28723705005ec65750cbb3518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 08:01:21</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="DELETE" query="id=b4f547a28723705005ec65750cbb350d"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="EUR">EUR</currency>
+        <field>price</field>
+        <id>b4f547a28723705005ec65750cbb350d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="EUR">EUR</reference_currency>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 08:01:21</sys_created_on>
+        <sys_id>cdf547a28723705005ec65750cbb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 08:01:21</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sc_cat_item_producer_b4f547a28723705005ec65750cbb350d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer"><sc_cat_item_producer action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>false</active><allow_edit>false</allow_edit><availability>on_desktop</availability><billable>false</billable><can_cancel>false</can_cancel><category display_value="Δημιουργία/Αναθεώρηση Εγγράφων Σχεδίου Διοίκησης">d03331e01b767490aa2b4371b24bcb96</category><checked_out>false</checked_out><cost>0</cost><custom_cart/><delivery_plan/><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Δημιουργία Εσωτερικού Εγγράφου</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="Christos  Tokoutsis">62efb3351be6f050aa2b4371b24bcbb4</owner><picture/><post_insert_script/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b4f547a28723705005ec65750cbb350d&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref display_value="Δημιουργία Εσωτερικού Εγγράφου">212c65641b367490aa2b4371b24bcb47</published_ref><recurring_frequency/><redirect_url>generated_record</redirect_url><request_method/><roles/><save_options/><save_script/><sc_catalogs>03827d601b767490aa2b4371b24bcbc1</sc_catalogs><sc_ic_item_staging/><sc_ic_version/><sc_template/><script/><short_description/><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state>draft</state><sys_class_name>sc_cat_item_producer</sys_class_name><sys_created_by>alex</sys_created_by><sys_created_on>2021-11-04 08:01:21</sys_created_on><sys_id>b4f547a28723705005ec65750cbb350d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Δημιουργία Εσωτερικού Εγγράφου</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sc_cat_item_producer_b4f547a28723705005ec65750cbb350d</sys_update_name><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-11-04 08:01:21</sys_updated_on><table_name>x_epats_qhs_qhs_policy</table_name><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><view/><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item_producer><sys_translated_text action="delete_multiple" query="documentkey=b4f547a28723705005ec65750cbb350d"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>b4f547a28723705005ec65750cbb350d</documentkey><fieldname>description</fieldname><language>el</language><sys_created_by>alex</sys_created_by><sys_created_on>2021-11-04 08:01:21</sys_created_on><sys_id>85f547a28723705005ec65750cbb351c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-11-04 08:01:21</sys_updated_on><tablename>sc_cat_item_producer</tablename><value/></sys_translated_text><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>b4f547a28723705005ec65750cbb350d</documentkey><fieldname>name</fieldname><language>el</language><sys_created_by>alex</sys_created_by><sys_created_on>2021-11-04 08:01:21</sys_created_on><sys_id>89f547a28723705005ec65750cbb3514</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-11-04 08:01:21</sys_updated_on><tablename>sc_cat_item_producer</tablename><value>Δημιουργία Εσωτερικού Εγγράφου</value></sys_translated_text><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>b4f547a28723705005ec65750cbb350d</documentkey><fieldname>short_description</fieldname><language>el</language><sys_created_by>alex</sys_created_by><sys_created_on>2021-11-04 08:01:21</sys_created_on><sys_id>89f547a28723705005ec65750cbb3518</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-11-04 08:01:21</sys_updated_on><tablename>sc_cat_item_producer</tablename><value/></sys_translated_text><fx_price action="delete_multiple" query="id=b4f547a28723705005ec65750cbb350d"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="EUR">EUR</currency><field>price</field><id>b4f547a28723705005ec65750cbb350d</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="EUR">EUR</reference_currency><sys_created_by>alex</sys_created_by><sys_created_on>2021-11-04 08:01:21</sys_created_on><sys_id>cdf547a28723705005ec65750cbb3512</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-11-04 08:01:21</sys_updated_on><table>sc_cat_item_producer</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>976717580</payload_hash>
+        <record_name>Δημιουργία Εσωτερικού Εγγράφου</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 08:01:21</sys_created_on>
+        <sys_id>49f547a28723705005ec65750cbb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ce9f776b90000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 08:01:21</sys_updated_on>
+        <type>Record Producer</type>
+        <update_guid>4df547a27a2370502cb74eefb1b49b1e</update_guid>
+        <update_guid_history>4df547a27a2370502cb74eefb1b49b1e:976717580,8df547a27d237050163b1402fe68581a:-1133328300,89f547a28723705049c8c023defb7917:857328249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Δημιουργία Εσωτερικού Εγγράφου">292a072a8723705005ec65750cbb3533</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-04 08:19:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_producer">sc_cat_item_producer</sys_db_object>
+        <sys_id>1b5e555328d44708964d3ce8ea11ae40</sys_id>
+        <sys_metadata>b4f547a28723705005ec65750cbb350d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Δημιουργία Εσωτερικού Εγγράφου</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="QHS Policy">e70608d31beef850aa2b4371b24bcbaf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sc_cat_item_producer_b4f547a28723705005ec65750cbb350d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_producer_b4f547a28723705005ec65750cbb350d">49f547a28723705005ec65750cbb351f</sys_update_version>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-04 08:19:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

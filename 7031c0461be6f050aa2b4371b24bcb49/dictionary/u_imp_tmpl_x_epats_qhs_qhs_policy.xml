@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Epats Qhs Qhs Policy" max_length="40" name="u_imp_tmpl_x_epats_qhs_qhs_policy" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="250" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owner" label="Owner" max_length="32" name="u_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owning group" label="Owning group" max_length="32" name="u_owning_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type(u_string_1)" label="Type(u_string_1)" max_length="40" name="u_type_u_string_1_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Όνομα Εσωτερικού Εγγράφου" label="Όνομα Εσωτερικού Εγγράφου" max_length="40" name="u_όνομα_εσωτερικού_εγγράφου" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Σε ισχύ από:" label="Σε ισχύ από:" max_length="40" name="u_σε_ισχύ_από_" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Τομέας" label="Τομέας" max_length="40" name="u_τομέας" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Τύπος Εγγράφου" label="Τύπος Εγγράφου" max_length="40" name="u_τύπος_εγγράφου" type="string"/>
+    </element>
+</database>

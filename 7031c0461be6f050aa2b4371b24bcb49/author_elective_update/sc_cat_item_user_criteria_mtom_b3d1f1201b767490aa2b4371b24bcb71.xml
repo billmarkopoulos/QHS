@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="New policy">212c65641b367490aa2b4371b24bcb47</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-21 13:59:03</sys_created_on>
+        <sys_id>b3d1f1201b767490aa2b4371b24bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New policy.Any User</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_b3d1f1201b767490aa2b4371b24bcb71</sys_update_name>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-21 13:59:03</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_b3d1f1201b767490aa2b4371b24bcb71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="New policy">212c65641b367490aa2b4371b24bcb47</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-21 13:59:03</sys_created_on><sys_id>b3d1f1201b767490aa2b4371b24bcb71</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New policy.Any User</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_b3d1f1201b767490aa2b4371b24bcb71</sys_update_name><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-21 13:59:03</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-41890052</payload_hash>
+        <record_name>New policy.Any User</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-21 13:59:03</sys_created_on>
+        <sys_id>33d1f9201b767490aa2b4371b24bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c08a724080000001</sys_recorded_at>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-21 13:59:03</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>3bd1f920a476749001cab5c94684be14</update_guid>
+        <update_guid_history>3bd1f920a476749001cab5c94684be14:-41890052</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New policy.Any User">774571e41b767490aa2b4371b24bcb86</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-09-21 14:14:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>04b9b25c112e4824805fbfcb6b5e14d1</sys_id>
+        <sys_metadata>b3d1f1201b767490aa2b4371b24bcb71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New policy.Any User</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="Δημιουργία Εγγράφου Συστήματος Διαχείρισης">212c65641b367490aa2b4371b24bcb47</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_b3d1f1201b767490aa2b4371b24bcb71</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_b3d1f1201b767490aa2b4371b24bcb71">33d1f9201b767490aa2b4371b24bcb15</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-09-21 14:14:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

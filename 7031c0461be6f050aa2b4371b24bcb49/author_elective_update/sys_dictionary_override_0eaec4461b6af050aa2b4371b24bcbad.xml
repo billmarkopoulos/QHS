@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>true</dependent_override>
+        <display_override>false</display_override>
+        <element>assigned_to</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_epats_qhs_qhs_policy</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-13 12:20:46</sys_created_on>
+        <sys_id>0eaec4461b6af050aa2b4371b24bcbad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_dictionary_override_0eaec4461b6af050aa2b4371b24bcbad</sys_update_name>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-13 12:20:46</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_dictionary_override_0eaec4461b6af050aa2b4371b24bcbad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>true</dependent_override><display_override>false</display_override><element>assigned_to</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_epats_qhs_qhs_policy</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-09-13 12:20:46</sys_created_on><sys_id>0eaec4461b6af050aa2b4371b24bcbad</sys_id><sys_mod_count>1</sys_mod_count><sys_name>assigned_to</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_dictionary_override_0eaec4461b6af050aa2b4371b24bcbad</sys_update_name><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-09-13 12:20:46</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>-642881881</payload_hash>
+        <record_name>assigned_to</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-13 12:20:46</sys_created_on>
+        <sys_id>4aaec4461b6af050aa2b4371b24bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17bdf1a48830000001</sys_recorded_at>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-13 12:20:46</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>02aec4461d6af0504d76efeeca3cfeb6</update_guid>
+        <update_guid_history>02aec4461d6af0504d76efeeca3cfeb6:-642881881,c2aec446796af050e6ca4eda8fc19ab1:1347889600</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+        <sys_created_on>2021-09-17 08:56:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>1b866fc9729240d086b98d1566cb92d9</sys_id>
+        <sys_metadata>0eaec4461b6af050aa2b4371b24bcbad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="">6cb3cc421b2af050aa2b4371b24bcb16</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_0eaec4461b6af050aa2b4371b24bcbad</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_0eaec4461b6af050aa2b4371b24bcbad">4aaec4461b6af050aa2b4371b24bcbb6</sys_update_version>
+        <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-09-17 08:56:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

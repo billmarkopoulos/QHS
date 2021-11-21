@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>QHS - Get KB link</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	var kb_url = 'dev_sp?sys_kb_id=' + current.getValue('kb_article')+'&id=kb_article_view';
+	var url_html = "<a href=" + kb_url +">" + 'LINK' + "</a>";
+	template.print(url_html);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-28 09:45:15</sys_created_on>
+        <sys_id>ebe9d35487ebb41005ec65750cbb35ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>QHS - Get KB link</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_script_email_ebe9d35487ebb41005ec65750cbb35ba</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-28 09:49:58</sys_updated_on>
+    </sys_script_email>
+</record_update>

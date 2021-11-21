@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="duration_commentary" label="Διάρκεια Σταδίου Σχολιασμού" language="en" table="x_epats_qhs_qhs_policy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>duration_commentary</element>
+            <help/>
+            <hint/>
+            <label>Διάρκεια Σταδίου Σχολιασμού</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <plural>Διάρκεια Σταδίου Σχολιασμούs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 10:24:39</sys_created_on>
+            <sys_id>cc30ce738737745005ec65750cbb35c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Διάρκεια Σταδίου Σχολιασμού</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_documentation_x_epats_qhs_qhs_policy_duration_commentary_en</sys_update_name>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 10:24:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

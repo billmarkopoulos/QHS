@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEMPLATE-POLICIES</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>ΕΚΔΟΣΗ VERSION</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-08 08:30:14</sys_created_on>
+        <sys_id>d98440ca1b8b3810aa2b4371b24bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE-POLICIES</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_template_d98440ca1b8b3810aa2b4371b24bcbc5</sys_update_name>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-08 08:30:14</sys_updated_on>
+        <table>x_epats_qhs_qhs_policy</table>
+        <template>assigned_to=238c65b887beb09005ec65750cbb3573^name=test 15^state=retired^owning_group=^owner=^u_glide_date_time_7=^u_glide_date_time_8=^description=^policy_text=^EQ</template>
+        <user display_value="Christos  Tokoutsis">62efb3351be6f050aa2b4371b24bcbb4</user>
+        <view/>
+    </sys_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_template_d98440ca1b8b3810aa2b4371b24bcbc5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><groups/><link_element/><name>TEMPLATE-POLICIES</name><next/><next_child/><roles/><short_description>ΕΚΔΟΣΗ VERSION</short_description><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by><sys_created_on>2021-10-08 08:30:14</sys_created_on><sys_id>d98440ca1b8b3810aa2b4371b24bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TEMPLATE-POLICIES</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_template_d98440ca1b8b3810aa2b4371b24bcbc5</sys_update_name><sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by><sys_updated_on>2021-10-08 08:30:14</sys_updated_on><table>x_epats_qhs_qhs_policy</table><template>assigned_to=238c65b887beb09005ec65750cbb3573^name=test 15^state=retired^owning_group=^owner=^u_glide_date_time_7=^u_glide_date_time_8=^description=^policy_text=^EQ</template><user display_value="Christos  Tokoutsis">62efb3351be6f050aa2b4371b24bcbb4</user><view/></sys_template></record_update>]]></payload>
+        <payload_hash>1601008666</payload_hash>
+        <record_name>TEMPLATE-POLICIES</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-08 08:30:14</sys_created_on>
+        <sys_id>c5a98cca1b8b3810aa2b4371b24bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5f0634a60000001</sys_recorded_at>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-08 08:30:14</sys_updated_on>
+        <type>Template</type>
+        <update_guid>8da98cca798b3810d3b01fac528f67f6</update_guid>
+        <update_guid_history>8da98cca798b3810d3b01fac528f67f6:1601008666</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+        <sys_created_on>2021-10-11 08:50:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>06ad926db05b47609053baf85d718400</sys_id>
+        <sys_metadata>d98440ca1b8b3810aa2b4371b24bcbc5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE-POLICIES</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_template_d98440ca1b8b3810aa2b4371b24bcbc5</sys_update_name>
+        <sys_update_version display_value="sys_template_d98440ca1b8b3810aa2b4371b24bcbc5">c5a98cca1b8b3810aa2b4371b24bcbf7</sys_update_version>
+        <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+        <sys_updated_on>2021-10-11 08:50:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

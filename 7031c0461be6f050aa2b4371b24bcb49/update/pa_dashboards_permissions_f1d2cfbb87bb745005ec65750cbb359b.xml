@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Έγγραφα Συστήματος Διαχείρισης">c7c622278777345005ec65750cbb3534</dashboard>
+        <delete>false</delete>
+        <group display_value="QHS" name="QHS">0869cf68db4fe4503158193405961975</group>
+        <identity>0869cf68db4fe4503158193405961975</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-20 15:15:52</sys_created_on>
+        <sys_id>f1d2cfbb87bb745005ec65750cbb359b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0869cf68db4fe4503158193405961975</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_f1d2cfbb87bb745005ec65750cbb359b</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-20 15:15:52</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

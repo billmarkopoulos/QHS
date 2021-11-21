@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="QHS Policy">acb38c421b2af050aa2b4371b24bcbcd</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_epats_qhs_qhs_policy">is_revise_program=true^qhs_directorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORqhs_managerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_glide_list_9DYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORu_glide_list_10DYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORowning_groupDYNAMICd6435e965f510100a9ad2572f2b47744^EQ<item endquery="false" field="is_revise_program" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="qhs_director" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="qhs_manager" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="u_glide_list_9" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="u_glide_list_10" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="owning_group" goto="false" newquery="false" operator="DYNAMIC" or="true" value="d6435e965f510100a9ad2572f2b47744"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Ετήσια Προγράμματα Αναθεώρησης</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_epats_qhs_qhs_policy</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>sn_compliance.admin,sn_compliance.manager,sn_compliance.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-21 07:54:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8dddf64287dff85005ec65750cbb35a4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Ετήσια Προγράμματα Αναθεώρησης</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_app_module_8dddf64287dff85005ec65750cbb35a4</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-03 09:20:49</sys_updated_on>
+        <timeline_page/>
+        <title>Ετήσια Προγράμματα Αναθεώρησης</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

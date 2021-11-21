@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">headersLIKEQHS^EQ<item endquery="false" field="headers" goto="false" newquery="false" operator="LIKE" or="false" value="QHS"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>QHS approval</name>
+        <order>2</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+	
+	var gr = new GlideRecord('x_epats_qhs_qhs_policy');
+	gr.addQuery('sys_id',current.document_id);
+	gr.query();
+	
+	gs.info('EMAIL TEST' + current.document_id.sys_id);
+	
+	if(gr.next()){
+		gr.u_journal_2 = "reply from: " + email.from + "\n\n" + email.body_text;
+		gr.update();
+	}
+	
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-19 20:39:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ed913e987db785005ec65750cbb35fd</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>QHS approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysevent_in_email_action_7ed913e987db785005ec65750cbb35fd</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-19 22:15:52</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

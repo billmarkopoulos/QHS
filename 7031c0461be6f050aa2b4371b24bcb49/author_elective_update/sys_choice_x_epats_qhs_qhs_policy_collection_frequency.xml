@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="collection_frequency" table="x_epats_qhs_qhs_policy" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>collection_frequency</element>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>anastasis</sys_created_by>
+            <sys_created_on>2021-09-13 13:32:14</sys_created_on>
+            <sys_id>450fd8ca872e705005ec65750cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>collection_frequency</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_choice_x_epats_qhs_qhs_policy_collection_frequency</sys_update_name>
+            <sys_updated_by>anastasis</sys_updated_by>
+            <sys_updated_on>2021-09-13 13:32:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>collection_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+            <sys_created_on>2021-09-17 09:48:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5912109f1b223c50aa2b4371b24bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-09-17 09:48:09</sys_updated_on>
+            <value>monthly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>collection_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quarterly</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+            <sys_created_on>2021-09-17 09:48:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9512109f1b223c50aa2b4371b24bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-09-17 09:48:09</sys_updated_on>
+            <value>quarterly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>collection_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semi-annually</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+            <sys_created_on>2021-09-17 09:48:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9912109f1b223c50aa2b4371b24bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-09-17 09:48:09</sys_updated_on>
+            <value>semi-annually</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>collection_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Annually</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+            <sys_created_on>2021-09-17 09:48:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d12109f1b223c50aa2b4371b24bcb8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-09-17 09:48:09</sys_updated_on>
+            <value>annually</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>collection_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biennial</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>ch.tokoutsis@empedus.eu</sys_created_by>
+            <sys_created_on>2021-09-17 09:48:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9112109f1b223c50aa2b4371b24bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ch.tokoutsis@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-09-17 09:48:09</sys_updated_on>
+            <value>biennial</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

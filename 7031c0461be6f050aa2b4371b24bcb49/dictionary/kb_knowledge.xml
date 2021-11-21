@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,attachment_index=true,document_viewer_audit=all,global_search_config_handler=KnowledgeArticle,hasLabels=true,text_index_attachment_displayed=true,text_index_enable_idf=true,text_index_filter_junk=false,use_document_viewer=true" audit="true" label="Knowledge" max_length="40" name="kb_knowledge" sizeclass="520" text_index="true" type="collection">
+        <element label="qhs_is_revisal_program" max_length="40" name="x_epats_qhs_qhs_is_revisal_program" type="boolean"/>
+        <element label="qhs_pointer" max_length="32" name="x_epats_qhs_qhs_pointer" reference="x_epats_qhs_qhs_policy" type="reference"/>
+        <element label="qhs_revise_check" max_length="40" name="x_epats_qhs_qhs_revise_check" type="boolean"/>
+        <element label="QHS update" max_length="40" name="x_epats_qhs_qhs_update" type="boolean"/>
+        <index name="index">
+            <element name="x_epats_qhs_qhs_pointer"/>
+        </index>
+    </element>
+</database>

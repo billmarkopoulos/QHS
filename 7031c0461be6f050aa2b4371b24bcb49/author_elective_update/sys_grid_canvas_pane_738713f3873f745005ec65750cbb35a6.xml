@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Έγγραφα Συστήματος Δ - New Tab">1ff62ee38777345005ec65750cbb3543</grid_canvas>
+        <height>6</height>
+        <portal_widget display_value="Created 20-11-2021 18:46:24">3387dbb3873f745005ec65750cbb3565</portal_widget>
+        <posx>6</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-20 16:46:24</sys_created_on>
+        <sys_id>738713f3873f745005ec65750cbb35a6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>1ff62ee38777345005ec65750cbb3543</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_738713f3873f745005ec65750cbb35a6</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-20 16:46:40</sys_updated_on>
+        <width>3</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_grid_canvas_pane_738713f3873f745005ec65750cbb35a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Έγγραφα Συστήματος Δ - New Tab">1ff62ee38777345005ec65750cbb3543</grid_canvas><height>6</height><portal_widget display_value="Created 20-11-2021 18:46:24">3387dbb3873f745005ec65750cbb3565</portal_widget><posx>6</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>alex</sys_created_by><sys_created_on>2021-11-20 16:46:24</sys_created_on><sys_id>738713f3873f745005ec65750cbb35a6</sys_id><sys_mod_count>5</sys_mod_count><sys_name>1ff62ee38777345005ec65750cbb3543</sys_name><sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package><sys_policy/><sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope><sys_update_name>sys_grid_canvas_pane_738713f3873f745005ec65750cbb35a6</sys_update_name><sys_updated_by>alex</sys_updated_by><sys_updated_on>2021-11-20 16:46:40</sys_updated_on><width>3</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-987638251</payload_hash>
+        <record_name>1ff62ee38777345005ec65750cbb3543</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-20 16:46:40</sys_created_on>
+        <sys_id>88a793f3873f745005ec65750cbb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d3e3e28400000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-20 16:46:40</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>40a793f3fe3f7450a364f3b6a7a298ae</update_guid>
+        <update_guid_history>40a793f3fe3f7450a364f3b6a7a298ae:-987638251,139793f36a3f7450cc11e41d366e804f:894667916,fd971fb32e3f74505b8f5c358d08f2e3:-987638251,d99753f33b3f745042bad6b6aa3ab70c:1921104818,609713f32d3f74500e1652bf2b336ce1:-100463759,778713f3a43f7450db22aa94135683a7:1682349282</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-20 17:03:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>568fe66fd010473091b5712903e42ca4</sys_id>
+        <sys_metadata>738713f3873f745005ec65750cbb35a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1ff62ee38777345005ec65750cbb3543</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_738713f3873f745005ec65750cbb35a6</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_738713f3873f745005ec65750cbb35a6">88a793f3873f745005ec65750cbb35ae</sys_update_version>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-20 17:03:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_1" table="x_epats_qhs_qhs_policy" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:24</sys_created_on>
+            <sys_id>e604c1c6874b381005ec65750cbb3553</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_string_1</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_choice_x_epats_qhs_qhs_policy_u_string_1</sys_update_name>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Διαδικασία</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e04c1c6874b381005ec65750cbb3552</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:24</sys_updated_on>
+            <value>διαδικασία</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Εγχειρίδιο</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2604c1c6874b381005ec65750cbb3555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>εγχειρίδιο</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Έντυπο</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a04c1c6874b381005ec65750cbb3556</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>έντυπο</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Κανονισμός</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e04c1c6874b381005ec65750cbb3557</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>κανονισμός</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Κώδικας</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2204c1c6874b381005ec65750cbb3559</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>κώδικας</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Νομοθεσία</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2604c1c6874b381005ec65750cbb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>νομοθεσία</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Οδηγία</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a04c1c6874b381005ec65750cbb355b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>οδηγία</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Πολιτική</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e04c1c6874b381005ec65750cbb355c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>πολιτική</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Προδιαγραφή</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2204c1c6874b381005ec65750cbb355e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>προδιαγραφή</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Προδιαγραφή Υλικού</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2604c1c6874b381005ec65750cbb355f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>προδιαγραφή υλικού</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Πρότυπο</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-08 12:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a04c1c6874b381005ec65750cbb3560</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-08 12:45:25</sys_updated_on>
+            <value>πρότυπο</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

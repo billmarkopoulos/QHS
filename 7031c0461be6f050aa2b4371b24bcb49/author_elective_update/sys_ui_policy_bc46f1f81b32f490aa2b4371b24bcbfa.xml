@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>false</active>
+        <conditions table="x_epats_qhs_qhs_policy">kb_knowledge_baseISNOTEMPTY^EQ<item endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+var gr = new GlideRecord('sn_compliance_policy');
+gr.addEncodedQuery('sys_id=' + current.getValue('kb_knowledge_base'));
+	gr.query();
+	while (gr.next()){
+		if (!current.policy_text){
+			current.policy_text = gr.getValue('policy_text');
+		}
+		if (!current.owning_group){
+			current.owning_group = gr.getValue('owning_group');
+		}
+		if (!current.owner){
+			current.owner = gr.getValue('owner');
+		}
+		if (!current.type){
+			current.type = gr.getValue('type');
+		}
+		if (!current.compliance_score){
+			current.compliance_score = gr.getValue('compliance_score');
+		}
+		if (!current.state){
+			current.state = gr.getValue('state');
+		}
+		if (!current.u_glide_date_time_7){
+			current.u_glide_date_time_7 = gr.getValue('valid_from');
+		}
+		if (!current.description){
+			current.description = gr.getValue('description');
+		}
+		if (!current.u_glide_list_9){
+			current.u_glide_list_9 = gr.getValue('approvers');
+		}
+		if (!current.kb_article){
+			current.kb_article = gr.getValue('kb_article');
+		}
+		if (!current.collection_frequency){
+			current.collection_frequency = gr.getValue('collection_frequency');
+		}
+		if (!current.first_run_date){
+			current.first_run_date = gr.getValue('first_run_date');
+		}
+		if (!current.first_run_date){
+			current.first_run_date = gr.getValue('first_run_date');
+		}
+		if (!current.number_of_days_to_respond){
+			current.number_of_days_to_respond = gr.getValue('number_of_days_to_respond');
+		}
+		if (!current.audience){
+			current.audience = gr.getValue('audience');
+		}
+		if (!current.url){
+			current.url = gr.getValue('url');
+		}
+		if (!current.maximum_exception_duration){
+			current.maximum_exception_duration = gr.getValue('maximum_exception_duration');
+		}
+		
+		
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>Autofill</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-09-22 09:03:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc46f1f81b32f490aa2b4371b24bcbfa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Autofill</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_ui_policy_bc46f1f81b32f490aa2b4371b24bcbfa</sys_update_name>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-09-22 09:08:55</sys_updated_on>
+        <table>x_epats_qhs_qhs_policy</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sys_ui_policy_bc46f1f81b32f490aa2b4371b24bcbfa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions table="x_epats_qhs_qhs_policy"&gt;kb_knowledge_baseISNOTEMPTY^EQ&lt;item endquery="false" field="kb_knowledge_base" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;false&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+var gr = new GlideRecord('sn_compliance_policy');
+gr.addEncodedQuery('sys_id=' + current.getValue('kb_knowledge_base'));
+	gr.query();
+	while (gr.next()){
+		if (!current.policy_text){
+			current.policy_text = gr.getValue('policy_text');
+		}
+		if (!current.owning_group){
+			current.owning_group = gr.getValue('owning_group');
+		}
+		if (!current.owner){
+			current.owner = gr.getValue('owner');
+		}
+		if (!current.type){
+			current.type = gr.getValue('type');
+		}
+		if (!current.compliance_score){
+			current.compliance_score = gr.getValue('compliance_score');
+		}
+		if (!current.state){
+			current.state = gr.getValue('state');
+		}
+		if (!current.u_glide_date_time_7){
+			current.u_glide_date_time_7 = gr.getValue('valid_from');
+		}
+		if (!current.description){
+			current.description = gr.getValue('description');
+		}
+		if (!current.u_glide_list_9){
+			current.u_glide_list_9 = gr.getValue('approvers');
+		}
+		if (!current.kb_article){
+			current.kb_article = gr.getValue('kb_article');
+		}
+		if (!current.collection_frequency){
+			current.collection_frequency = gr.getValue('collection_frequency');
+		}
+		if (!current.first_run_date){
+			current.first_run_date = gr.getValue('first_run_date');
+		}
+		if (!current.first_run_date){
+			current.first_run_date = gr.getValue('first_run_date');
+		}
+		if (!current.number_of_days_to_respond){
+			current.number_of_days_to_respond = gr.getValue('number_of_days_to_respond');
+		}
+		if (!current.audience){
+			current.audience = gr.getValue('audience');
+		}
+		if (!current.url){
+			current.url = gr.getValue('url');
+		}
+		if (!current.maximum_exception_duration){
+			current.maximum_exception_duration = gr.getValue('maximum_exception_duration');
+		}
+		
+		
+	}
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Autofill&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;anastasis&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-22 09:03:55&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bc46f1f81b32f490aa2b4371b24bcbfa&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Autofill&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="QHS" source="x_epats_qhs"&gt;7031c0461be6f050aa2b4371b24bcb49&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="QHS"&gt;7031c0461be6f050aa2b4371b24bcb49&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_bc46f1f81b32f490aa2b4371b24bcbfa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;anastasis&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-22 09:08:55&lt;/sys_updated_on&gt;&lt;table&gt;x_epats_qhs_qhs_policy&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-810481174</payload_hash>
+        <record_name>Autofill</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-09-22 09:08:55</sys_created_on>
+        <sys_id>a30979301b72f490aa2b4371b24bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c0cc3e0160000001</sys_recorded_at>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-09-22 09:08:55</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>6b0979302772f490fcb990621a19afc2</update_guid>
+        <update_guid_history>6b0979302772f490fcb990621a19afc2:-810481174,3888bdbc6e32f490f34e451171030685:-1836829035,86e7b5bc2f32f490099673269add2249:-270970500</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>anastasis</sys_created_by>
+        <sys_created_on>2021-09-22 09:17:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>3f7479b10e67429ab3e0bdf7bafbb844</sys_id>
+        <sys_metadata>bc46f1f81b32f490aa2b4371b24bcbfa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Autofill</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="QHS Policy">e70608d31beef850aa2b4371b24bcbaf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_bc46f1f81b32f490aa2b4371b24bcbfa</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_bc46f1f81b32f490aa2b4371b24bcbfa">a30979301b72f490aa2b4371b24bcbc3</sys_update_version>
+        <sys_updated_by>anastasis</sys_updated_by>
+        <sys_updated_on>2021-09-22 09:17:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

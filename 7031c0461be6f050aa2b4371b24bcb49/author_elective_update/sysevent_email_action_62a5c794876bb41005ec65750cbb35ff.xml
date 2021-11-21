@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_epats_qhs_qhs_policy</collection>
+        <condition table="x_epats_qhs_qhs_policy">is_revise_program!=true^EQ<item endquery="false" field="is_revise_program" goto="false" newquery="false" operator="!=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>7</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&Delta;&eta;&mu;&iota;&omicron;&upsilon;&rho;&gamma;ή&theta;&eta;&kappa;&epsilon; &alpha;ί&tau;&eta;&mu;&alpha; &sigma;ύ&nu;&tau;&alpha;&xi;&eta;&sigmaf; &epsilon;&sigma;&omega;&tau;&epsilon;&rho;&iota;&kappa;&omicron;ύ &epsilon;&gamma;&gamma;&rho;ά&phi;&omicron;&upsilon; &tau;&omicron; &omicron;&pi;&omicron;ί&omicron; &beta;&rho;ί&sigma;&kappa;&epsilon;&tau;&alpha;&iota; &sigma;&epsilon; &alpha;&nu;&alpha;&mu;&omicron;&nu;ή &gamma;&iota;&alpha; έ&gamma;&kappa;&rho;&iota;&sigma;&eta; &alpha;&pi;ό &tau;&omicron;&nu; &alpha;&rho;&mu;ό&delta;&iota;&omicron; &delta;&iota;&epsilon;&upsilon;&theta;&upsilon;&nu;&tau;ή.</p>
+<p><br /></p>
+<ul style="list-style-position: inside;">
+<li>Ό&nu;&omicron;&mu;&alpha; &Epsilon;&sigma;&omega;&tau;&epsilon;&rho;&iota;&kappa;&omicron;ύ &Epsilon;&gamma;&gamma;&rho;ά&phi;&omicron;&upsilon;: ${name}<br /></li>
+<li>&Tau;ύ&pi;&omicron;&sigmaf; &Epsilon;&gamma;&gamma;&rho;ά&phi;&omicron;&upsilon;: ${u_string_1}<br /></li>
+<li>&Tau;&omicron;&mu;έ&alpha;&sigmaf;: ${u_owning_group_qhs}<br /></li>
+<li>&Upsilon;&pi;&epsilon;ύ&theta;&upsilon;&nu;&omicron;&sigmaf; &Tau;&omicron;&mu;έ&alpha; : ${u_owner_qhs}</li>
+<li>&Alpha;&rho;&mu;ό&delta;&iota;&omicron;&sigmaf; &Delta;&iota;&epsilon;&upsilon;&theta;&upsilon;&nu;&tau;ή&sigmaf;: ${armodios_manager}<br /></li>
+</ul>
+<p><br /></p>
+<p>&Mu;&pi;&omicron;&rho;&epsilon;ί&tau;&epsilon; &nu;&alpha; &epsilon;&pi;&iota;&sigma;&kappa;&epsilon;&phi;&tau;&epsilon;ί&tau;&epsilon; &tau;&omicron; &alpha;ί&tau;&eta;&mu;&alpha; &sigma;&tau;&eta;&nu; &pi;&lambda;&alpha;&tau;&phi;ό&rho;&mu;&alpha; &tau;&eta;&sigmaf; ServiceNow &alpha;&pi;&omicron; &tau;&omicron;&nu; &pi;&alpha;&rho;&alpha;&kappa;ά&tau;&omega; &sigma;ύ&nu;&delta;&epsilon;&sigma;&mu;&omicron;: {$URI}</p>
+<p><br /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>QHS Αιτημα συνταξης εσωτερικου εγγραφου</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>qhs_manager</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>ΕΓΚΡΙΣΗ ΣΥΝΤΑΞΗΣ/ΑΝΑΘΕΩΡΗΣΗΣ ΕΣΩΤΕΡΙΚΟΥ ΕΓΓΡΑΦΟΥ</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-28 08:13:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62a5c794876bb41005ec65750cbb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS Αιτημα συνταξης εσωτερικου εγγραφου</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sysevent_email_action_62a5c794876bb41005ec65750cbb35ff</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-28 08:13:46</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</application>
+        <file_path/>
+        <instance_id>97fac216dbc8a38089535d00cf961908</instance_id>
+        <instance_name>thesdev</instance_name>
+        <name>sysevent_email_action_62a5c794876bb41005ec65750cbb35ff</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_epats_qhs_qhs_policy&lt;/collection&gt;&lt;condition table="x_epats_qhs_qhs_policy"&gt;is_revise_program!=true^EQ&lt;item endquery="false" field="is_revise_program" goto="false" newquery="false" operator="!=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;7&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;true&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&amp;Delta;&amp;eta;&amp;mu;&amp;iota;&amp;omicron;&amp;upsilon;&amp;rho;&amp;gamma;ή&amp;theta;&amp;eta;&amp;kappa;&amp;epsilon; &amp;alpha;ί&amp;tau;&amp;eta;&amp;mu;&amp;alpha; &amp;sigma;ύ&amp;nu;&amp;tau;&amp;alpha;&amp;xi;&amp;eta;&amp;sigmaf; &amp;epsilon;&amp;sigma;&amp;omega;&amp;tau;&amp;epsilon;&amp;rho;&amp;iota;&amp;kappa;&amp;omicron;ύ &amp;epsilon;&amp;gamma;&amp;gamma;&amp;rho;ά&amp;phi;&amp;omicron;&amp;upsilon; &amp;tau;&amp;omicron; &amp;omicron;&amp;pi;&amp;omicron;ί&amp;omicron; &amp;beta;&amp;rho;ί&amp;sigma;&amp;kappa;&amp;epsilon;&amp;tau;&amp;alpha;&amp;iota; &amp;sigma;&amp;epsilon; &amp;alpha;&amp;nu;&amp;alpha;&amp;mu;&amp;omicron;&amp;nu;ή &amp;gamma;&amp;iota;&amp;alpha; έ&amp;gamma;&amp;kappa;&amp;rho;&amp;iota;&amp;sigma;&amp;eta; &amp;alpha;&amp;pi;ό &amp;tau;&amp;omicron;&amp;nu; &amp;alpha;&amp;rho;&amp;mu;ό&amp;delta;&amp;iota;&amp;omicron; &amp;delta;&amp;iota;&amp;epsilon;&amp;upsilon;&amp;theta;&amp;upsilon;&amp;nu;&amp;tau;ή.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul style="list-style-position: inside;"&gt;
+&lt;li&gt;Ό&amp;nu;&amp;omicron;&amp;mu;&amp;alpha; &amp;Epsilon;&amp;sigma;&amp;omega;&amp;tau;&amp;epsilon;&amp;rho;&amp;iota;&amp;kappa;&amp;omicron;ύ &amp;Epsilon;&amp;gamma;&amp;gamma;&amp;rho;ά&amp;phi;&amp;omicron;&amp;upsilon;: ${name}&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&amp;Tau;ύ&amp;pi;&amp;omicron;&amp;sigmaf; &amp;Epsilon;&amp;gamma;&amp;gamma;&amp;rho;ά&amp;phi;&amp;omicron;&amp;upsilon;: ${u_string_1}&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&amp;Tau;&amp;omicron;&amp;mu;έ&amp;alpha;&amp;sigmaf;: ${u_owning_group_qhs}&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&amp;Upsilon;&amp;pi;&amp;epsilon;ύ&amp;theta;&amp;upsilon;&amp;nu;&amp;omicron;&amp;sigmaf; &amp;Tau;&amp;omicron;&amp;mu;έ&amp;alpha; : ${u_owner_qhs}&lt;/li&gt;
+&lt;li&gt;&amp;Alpha;&amp;rho;&amp;mu;ό&amp;delta;&amp;iota;&amp;omicron;&amp;sigmaf; &amp;Delta;&amp;iota;&amp;epsilon;&amp;upsilon;&amp;theta;&amp;upsilon;&amp;nu;&amp;tau;ή&amp;sigmaf;: ${armodios_manager}&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;Mu;&amp;pi;&amp;omicron;&amp;rho;&amp;epsilon;ί&amp;tau;&amp;epsilon; &amp;nu;&amp;alpha; &amp;epsilon;&amp;pi;&amp;iota;&amp;sigma;&amp;kappa;&amp;epsilon;&amp;phi;&amp;tau;&amp;epsilon;ί&amp;tau;&amp;epsilon; &amp;tau;&amp;omicron; &amp;alpha;ί&amp;tau;&amp;eta;&amp;mu;&amp;alpha; &amp;sigma;&amp;tau;&amp;eta;&amp;nu; &amp;pi;&amp;lambda;&amp;alpha;&amp;tau;&amp;phi;ό&amp;rho;&amp;mu;&amp;alpha; &amp;tau;&amp;eta;&amp;sigmaf; ServiceNow &amp;alpha;&amp;pi;&amp;omicron; &amp;tau;&amp;omicron;&amp;nu; &amp;pi;&amp;alpha;&amp;rho;&amp;alpha;&amp;kappa;ά&amp;tau;&amp;omega; &amp;sigma;ύ&amp;nu;&amp;delta;&amp;epsilon;&amp;sigma;&amp;mu;&amp;omicron;: {$URI}&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;QHS Αιτημα συνταξης εσωτερικου εγγραφου&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;qhs_manager&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;ΕΓΚΡΙΣΗ ΣΥΝΤΑΞΗΣ/ΑΝΑΘΕΩΡΗΣΗΣ ΕΣΩΤΕΡΙΚΟΥ ΕΓΓΡΑΦΟΥ&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;alex&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-10-28 08:13:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;62a5c794876bb41005ec65750cbb35ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;QHS Αιτημα συνταξης εσωτερικου εγγραφου&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="QHS" source="x_epats_qhs"&gt;7031c0461be6f050aa2b4371b24bcb49&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="QHS"&gt;7031c0461be6f050aa2b4371b24bcb49&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_62a5c794876bb41005ec65750cbb35ff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-28 08:13:46&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-534830166</payload_hash>
+        <record_name>QHS Αιτημα συνταξης εσωτερικου εγγραφου</record_name>
+        <reverted_from/>
+        <source>7431c0461be6f050aa2b4371b24bcb4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-28 08:13:46</sys_created_on>
+        <sys_id>62a50b94876bb41005ec65750cbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cc5f650730000001</sys_recorded_at>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-28 08:13:46</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>6aa50b94ae6bb410ff02fbd845813700</update_guid>
+        <update_guid_history>6aa50b94ae6bb410ff02fbd845813700:-534830166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-03 16:24:32</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>549cc163d75d4f58909a0e96822cb440</sys_id>
+        <sys_metadata>62a5c794876bb41005ec65750cbb35ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QHS Αιτημα συνταξης εσωτερικου εγγραφου</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_parent display_value="QHS Policy">e70608d31beef850aa2b4371b24bcbaf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_scope_delete display_value="">346ecbf03d234df8b427441586d03444</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_62a5c794876bb41005ec65750cbb35ff</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_62a5c794876bb41005ec65750cbb35ff">62a50b94876bb41005ec65750cbb3501</sys_update_version>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-03 16:24:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

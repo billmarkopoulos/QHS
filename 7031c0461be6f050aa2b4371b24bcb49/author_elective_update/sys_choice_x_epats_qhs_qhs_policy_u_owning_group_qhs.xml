@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_owning_group_qhs" table="x_epats_qhs_qhs_policy" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_owning_group_qhs</element>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:43:22</sys_created_on>
+            <sys_id>fccd5f5c875bf05005ec65750cbb35c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_owning_group_qhs</sys_name>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_choice_x_epats_qhs_qhs_policy_u_owning_group_qhs</sys_update_name>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:43:22</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AFC</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>13ed975c875bf05005ec65750cbb3512</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:44:17</sys_updated_on>
+            <value>AFC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CA</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:44:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>580e975c875bf05005ec65750cbb359f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:44:36</sys_updated_on>
+            <value>CA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CON</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:44:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1fd5b5c875bf05005ec65750cbb35d7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:44:28</sys_updated_on>
+            <value>CON</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DEV</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:44:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee0e5b5c875bf05005ec65750cbb35ee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:44:45</sys_updated_on>
+            <value>DEV</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GM</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:43:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81cd975c875bf05005ec65750cbb35cb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:43:58</sys_updated_on>
+            <value>GM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GMI</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:44:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae1e975c875bf05005ec65750cbb35f0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:45:03</sys_updated_on>
+            <value>GMI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:44:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>201e539c875bf05005ec65750cbb35d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:44:53</sys_updated_on>
+            <value>HR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ICT</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:43:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cbd975c875bf05005ec65750cbb3509</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:43:28</sys_updated_on>
+            <value>ICT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INSEC</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-21 10:08:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5dc578687933c5005ec65750cbb35a3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-21 10:09:05</sys_updated_on>
+            <value>INSEC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LEG</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>974ed79c875bf05005ec65750cbb35d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:45:57</sys_updated_on>
+            <value>LEG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MB</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:44:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81ed139c875bf05005ec65750cbb35d2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:44:08</sys_updated_on>
+            <value>MB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PROC</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:45:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>113e5b5c875bf05005ec65750cbb35f1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:45:33</sys_updated_on>
+            <value>PROC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QHS</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:45:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f2e939c875bf05005ec65750cbb3567</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:45:21</sys_updated_on>
+            <value>QHS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_owning_group_qhs</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STRAT-REG</label>
+            <language>en</language>
+            <name>x_epats_qhs_qhs_policy</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-10-15 23:45:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c4ed39c875bf05005ec65750cbb356b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-10-15 23:45:47</sys_updated_on>
+            <value>STRAT-REG</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

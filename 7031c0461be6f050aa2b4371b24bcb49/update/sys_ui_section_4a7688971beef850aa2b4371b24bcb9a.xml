@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4a7688971beef850aa2b4371b24bcb9a" sys_domain="global" table="x_epats_qhs_qhs_policy" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>99c71efa87b7305005ec65750cbb35f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">823d048287ea705005ec65750cbb3501</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>55c71efa87b7305005ec65750cbb35f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d9c71efa87b7305005ec65750cbb35f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owning_group_qhs</element>
+            <position>3</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>51c71efa87b7305005ec65750cbb35f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_owning_groups</element>
+            <position>4</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d5c71efa87b7305005ec65750cbb35f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_owner_qhs</element>
+            <position>5</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>5dc71efa87b7305005ec65750cbb35f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>procedure_2</element>
+            <position>6</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d1c71efa87b7305005ec65750cbb35f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>7</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>59c71efa87b7305005ec65750cbb35f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compliance_score</element>
+            <position>8</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>ddc71efa87b7305005ec65750cbb35f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_1</element>
+            <position>9</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>55c71efa87b7305005ec65750cbb35f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_2</element>
+            <position>10</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d9c71efa87b7305005ec65750cbb35f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>scheduled_revision</element>
+            <position>11</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>51c71efa87b7305005ec65750cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_revise_date</element>
+            <position>12</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d5c71efa87b7305005ec65750cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>5dc71efa87b7305005ec65750cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>14</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d1c71efa87b7305005ec65750cbb35f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>release_date</element>
+            <position>15</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>59c71efa87b7305005ec65750cbb35f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>armodios_manager</element>
+            <position>16</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>ddc71efa87b7305005ec65750cbb35f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_list_9</element>
+            <position>17</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>55c71efa87b7305005ec65750cbb35f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_list_10</element>
+            <position>18</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d9c71efa87b7305005ec65750cbb35f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>19</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>51c71efa87b7305005ec65750cbb35fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>20</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d5c71efa87b7305005ec65750cbb35fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_of_editing</element>
+            <position>21</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>5dc71efa87b7305005ec65750cbb35fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>final_ok</element>
+            <position>22</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d1c71efa87b7305005ec65750cbb35fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ca_adm_approve</element>
+            <position>23</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>59c71efa87b7305005ec65750cbb35fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nomikh_approve</element>
+            <position>24</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>ddc71efa87b7305005ec65750cbb35fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>send_to_qhs_director</element>
+            <position>25</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>55c71efa87b7305005ec65750cbb35fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>revise_send_to_general_director</element>
+            <position>26</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d9c71efa87b7305005ec65750cbb35fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>27</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>51c71efa87b7305005ec65750cbb35fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description_qhs</element>
+            <position>28</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d5c71efa87b7305005ec65750cbb35fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>policy_text</element>
+            <position>29</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>5dc71efa87b7305005ec65750cbb35fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attachments_of_interest</element>
+            <position>30</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d1c71efa87b7305005ec65750cbb35fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_epats_qhs_qhs_policy.REL:48b29f978727301005ec65750cbb3599</element>
+            <position>31</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>59c71efa87b7305005ec65750cbb35fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>qhs_manager</element>
+            <position>32</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>ddc71efa87b7305005ec65750cbb35fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>qhs_director</element>
+            <position>33</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>55c71efa87b7305005ec65750cbb35ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department_director</element>
+            <position>34</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d9c71efa87b7305005ec65750cbb35ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department_director_thes</element>
+            <position>35</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>51c75efa87b7305005ec65750cbb3500</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_of_editing_flow</element>
+            <position>36</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d5c75efa87b7305005ec65750cbb3500</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hidden_get_worknotes</element>
+            <position>37</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>5dc75efa87b7305005ec65750cbb3500</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_revise_program</element>
+            <position>38</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d1c75efa87b7305005ec65750cbb3501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>general_director</element>
+            <position>39</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>59c75efa87b7305005ec65750cbb3501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>leg_group</element>
+            <position>40</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>ddc75efa87b7305005ec65750cbb3501</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ca_group</element>
+            <position>41</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>55c75efa87b7305005ec65750cbb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>flow_placeholder</element>
+            <position>42</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d9c75efa87b7305005ec65750cbb3502</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_revision_placeholder</element>
+            <position>43</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>51c75efa87b7305005ec65750cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skip_approve_if_commenting</element>
+            <position>44</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d5c75efa87b7305005ec65750cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>flow_placeholder_2</element>
+            <position>45</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>5dc75efa87b7305005ec65750cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>qhs_manager_replied</element>
+            <position>46</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-17 09:33:46</sys_created_on>
+            <sys_id>d1c75efa87b7305005ec65750cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-17 09:33:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration_edit</element>
+            <position>47</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 10:23:54</sys_created_on>
+            <sys_id>05000e738737745005ec65750cbb3535</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 10:23:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration_commentary</element>
+            <position>48</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 10:24:39</sys_created_on>
+            <sys_id>4430ce738737745005ec65750cbb35c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 10:24:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aithma_egrishs_genikoy_date</element>
+            <position>49</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 10:27:51</sys_created_on>
+            <sys_id>f6e0cab38737745005ec65750cbb35ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 10:27:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>edit_state_date</element>
+            <position>50</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 10:29:55</sys_created_on>
+            <sys_id>8d610ef38737745005ec65750cbb3542</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 10:29:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration_general_director_approval</element>
+            <position>51</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 11:15:47</sys_created_on>
+            <sys_id>0debc2378777745005ec65750cbb3584</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 11:15:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration_total</element>
+            <position>52</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 11:25:49</sys_created_on>
+            <sys_id>fb2e4a3b8777745005ec65750cbb357e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 11:25:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overdue_edit</element>
+            <position>53</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 12:57:58</sys_created_on>
+            <sys_id>fd43eab3873b745005ec65750cbb3543</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 12:57:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overdue_commentary</element>
+            <position>54</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 12:58:23</sys_created_on>
+            <sys_id>40632eb3873b745005ec65750cbb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 12:58:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overdue_general_director_approval</element>
+            <position>55</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 12:59:25</sys_created_on>
+            <sys_id>8f936eb3873b745005ec65750cbb35db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 12:59:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>overdue_total</element>
+            <position>56</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 12:59:47</sys_created_on>
+            <sys_id>ecb3aeb3873b745005ec65750cbb3529</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 12:59:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_from_department_director</element>
+            <position>57</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 13:11:14</sys_created_on>
+            <sys_id>c8562ab7873b745005ec65750cbb35c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 13:11:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reset_rejected_approvals</element>
+            <position>58</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 13:22:01</sys_created_on>
+            <sys_id>cac826bb873b745005ec65750cbb3541</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 13:22:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>skip_comment_placeholder</element>
+            <position>59</position>
+            <sys_created_by>alex</sys_created_by>
+            <sys_created_on>2021-11-20 14:03:09</sys_created_on>
+            <sys_id>2c3232f7877b745005ec65750cbb3526</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_epats_qhs_qhs_policy" sys_domain="global" view="Default view">4a7688971beef850aa2b4371b24bcb9a</sys_ui_section>
+            <sys_updated_by>alex</sys_updated_by>
+            <sys_updated_on>2021-11-20 14:03:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_epats_qhs_qhs_policy</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
+            <sys_created_on>2021-09-17 08:57:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a7688971beef850aa2b4371b24bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_epats_qhs_qhs_policy</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+            <sys_update_name>sys_ui_section_4a7688971beef850aa2b4371b24bcb9a</sys_update_name>
+            <sys_updated_by>lamprou.sch@empedus.eu</sys_updated_by>
+            <sys_updated_on>2021-09-17 08:57:25</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

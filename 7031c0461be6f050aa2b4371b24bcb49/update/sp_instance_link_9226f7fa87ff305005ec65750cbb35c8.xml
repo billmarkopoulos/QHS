@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category display_value="ΔΙΑΔΙΚΑΣΙΕΣ">ac91ba20879b345005ec65750cbb3501</kb_category>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6cf433ba87ff305005ec65750cbb359d</sp_column>
+        <sp_page display_value="kb_search">79e23a7ddbd6220099f93691f0b8f53c</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-17 16:26:10</sys_created_on>
+        <sys_id>9226f7fa87ff305005ec65750cbb35c8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Διαδικασίες</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sp_instance_link_9226f7fa87ff305005ec65750cbb35c8</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-17 16:28:50</sys_updated_on>
+        <title>Διαδικασίες</title>
+        <type>kb_category</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=9226f7fa87ff305005ec65750cbb35c8"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>9226f7fa87ff305005ec65750cbb35c8</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>el</language>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-17 16:26:10</sys_created_on>
+        <sys_id>de26f7fa87ff305005ec65750cbb35c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-17 16:26:10</sys_updated_on>
+        <tablename>sp_instance_link</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>9226f7fa87ff305005ec65750cbb35c8</documentkey>
+        <fieldname>title</fieldname>
+        <language>el</language>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-11-17 16:26:10</sys_created_on>
+        <sys_id>de26f7fa87ff305005ec65750cbb35ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-11-17 16:26:39</sys_updated_on>
+        <tablename>sp_instance_link</tablename>
+        <value>Διαδικασίες</value>
+    </sys_translated_text>
+</record_update>

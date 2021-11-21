@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>scheduled_revision</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>alex</sys_created_by>
+        <sys_created_on>2021-10-29 07:45:28</sys_created_on>
+        <sys_id>1db808f88723381005ec65750cbb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scheduled_revision</sys_name>
+        <sys_package display_value="QHS" source="x_epats_qhs">7031c0461be6f050aa2b4371b24bcb49</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="QHS">7031c0461be6f050aa2b4371b24bcb49</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1db808f88723381005ec65750cbb357f</sys_update_name>
+        <sys_updated_by>alex</sys_updated_by>
+        <sys_updated_on>2021-10-29 07:45:28</sys_updated_on>
+        <table>x_epats_qhs_qhs_policy</table>
+        <ui_policy display_value="Hide/UnMandatory fields when file is 'ΠΡΟΓΡΑΜΜΑ ΑΝΑΘΕΩΡΗΣΗΣ'">528bd7f1879fb85005ec65750cbb3594</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

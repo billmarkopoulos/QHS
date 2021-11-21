@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="sn_grc_document" label="QHS Policy" max_length="40" name="x_epats_qhs_qhs_policy" sizeclass="0" type="collection">
+        <element label="Διευθύνσεις Συνιδιοκτισίας" max_length="4000" name="additional_owning_groups" reference="sys_user_group" reference_qual="nameINAFC,CA,CON,DEV,GM,GMI,HR,ICT,INSEC,LEG,MB,PROC,QHS,STRAT-REG^EQ" reference_qual_condition="nameINAFC,CA,CON,DEV,GM,GMI,HR,ICT,INSEC,LEG,MB,PROC,QHS,STRAT-REG^EQ" type="glide_list"/>
+        <element label="Aithma egrishs genikoy date" max_length="40" name="aithma_egrishs_genikoy_date" type="glide_date"/>
+        <element label="Αίτημα Έγκρισης από Αρμόδιο Διευθυντή" max_length="40" name="approval_from_department_director" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Department Manager" max_length="32" name="armodios_manager" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Article template" max_length="32" name="article_template" reference="sn_compliance_article_template" type="reference"/>
+        <element attributes="encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Attachments of Interest" max_length="4000" name="attachments_of_interest" reference="sys_attachment" reference_qual="javascript: &quot;table_sys_id=&quot;+current.sys_id" type="glide_list" use_reference_qualifier="advanced"/>
+        <element attributes="encode_utf8=false" label="Audience" max_length="32" name="audience" reference="sn_grc_audience" type="reference"/>
+        <element label="Χρειάζεται έγκριση από Διεύθυνση CA/ADM" max_length="40" name="ca_adm_approve" type="boolean"/>
+        <element label="Ca group" max_length="32" name="ca_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="monthly" label="Frequency" max_length="40" name="collection_frequency" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="0" value="monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="1" value="quarterly"/>
+                <element inactive_on_update="false" label="Semi-annually" sequence="2" value="semi-annually"/>
+                <element inactive_on_update="false" label="Annually" sequence="3" value="annually"/>
+                <element inactive_on_update="false" label="Biennial" sequence="4" value="biennial"/>
+            </choice>
+        </element>
+        <element default="0" label="Compliance Score Percentage" max_length="40" name="compliance_score" read_only="true" type="integer"/>
+        <element attributes="encode_utf8=false" label="Department director" max_length="32" name="department_director" reference="sys_user" type="reference"/>
+        <element label="department_director_thes" max_length="100" name="department_director_thes" reference="sys_user" type="reference"/>
+        <element label="Διάρκεια Σταδίου Σχολιασμού" max_length="40" name="duration_commentary" type="integer"/>
+        <element label="Διάρκεια Σταδίου Επεξεργασίας" max_length="40" name="duration_edit" type="integer"/>
+        <element label="Διάρκεια αποστολής προς Γεν. Διευθ." max_length="40" name="duration_general_director_approval" type="integer"/>
+        <element label="Συνολική Διάρκεια Διαδικασίας" max_length="40" name="duration_total" type="integer"/>
+        <element label="Edit state date" max_length="40" name="edit_state_date" type="glide_date"/>
+        <element label="Completion of comments by involved managers" max_length="40" name="end_of_editing" type="boolean"/>
+        <element label="End of editing flow" max_length="40" name="end_of_editing_flow" type="boolean"/>
+        <element label="Ready for Publication" max_length="40" name="final_ok" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="First Acknowledgement" max_length="40" name="first_run_date" type="glide_date"/>
+        <element label="Flow placeholder" max_length="40" name="flow_placeholder" type="boolean"/>
+        <element label="Flow Placeholder 2" max_length="40" name="flow_placeholder_2" type="boolean"/>
+        <element label="General director" max_length="32" name="general_director" reference="sys_user" type="reference"/>
+        <element label="Hidden get worknotes" max_length="5000" name="hidden_get_worknotes" type="string"/>
+        <element label="Is old document" max_length="40" name="is_old_document" type="boolean"/>
+        <element label="Is revise program" max_length="40" name="is_revise_program" type="boolean"/>
+        <element label="Is revision placeholder" max_length="40" name="is_revision_placeholder" type="boolean"/>
+        <element label="Ιστορικό Σχολίων" max_length="4000" name="journal_history" type="journal"/>
+        <element attributes="encode_utf8=false" label="KB article" max_length="32" name="kb_article" read_only="true" reference="kb_knowledge" type="reference"/>
+        <element attributes="encode_utf8=false" label="Policies" max_length="32" name="kb_knowledge_base" reference="x_epats_qhs_qhs_policy" type="reference"/>
+        <element attributes="encode_utf8=false" label="Knowledge Base" max_length="32" name="knowledge_base" reference="kb_knowledge_base" type="reference"/>
+        <element label="Leg group" max_length="32" name="leg_group" reference="sys_user_group" type="reference"/>
+        <element label="Maximum exception duration (days)" max_length="40" name="maximum_exception_duration" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Next Acknowledgement" max_length="40" name="next_run_time" read_only="true" type="glide_date"/>
+        <element label="Χρειάζεται έγκριση από Νομική Υπηρεσία" max_length="40" name="nomikh_approve" type="boolean"/>
+        <element label="Number of days to respond" max_length="40" name="number_of_days_to_respond" type="integer"/>
+        <element attributes="encode_utf8=false" label="Created by" max_length="32" name="opened_by" reference="sys_user" type="reference"/>
+        <element label="Εκπρόθεσμος Σχολιασμός" max_length="40" name="overdue_commentary" type="boolean"/>
+        <element label="Εκπρόθεσμη Επεξεργασία" max_length="40" name="overdue_edit" type="boolean"/>
+        <element label="Εκπρόθεσμη Έγκριση Διευθυντή" max_length="40" name="overdue_general_director_approval" type="boolean"/>
+        <element label="Εκπρόθεσμη Συνολική Διαδικασία" max_length="40" name="overdue_total" type="boolean"/>
+        <element label="Έγγραφα Προς Αναθεώρηση" max_length="4000" name="policies_for_revision" reference="x_epats_qhs_qhs_policy" reference_qual="javascript: &quot;state=published^is_revise_program!=true^u_owning_group_qhs=&quot;+current.u_owning_group_qhs+&quot;^EQ&quot;" type="glide_list" use_reference_qualifier="advanced"/>
+        <element label="Text" max_length="65536" name="policy_text" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Procedure" max_length="250" name="procedure" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Δημιουργία νέου Εσωτερικού Εγγράφου" sequence="0" value="create new"/>
+                <element inactive_on_update="false" label="Αναθεώρηση Εσωτερικού Εγγράφου" sequence="1" value="reconsideration"/>
+                <element inactive_on_update="false" label="Δημιουργία νέου Εντύπου (Mod)" sequence="2" value="mod"/>
+                <element inactive_on_update="false" label="Αναθεώρηση Εντύπου (Mod)" sequence="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Procedure" max_length="40" name="procedure_2" read_only="true" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Δημιουργία νέου Εντύπου (Mod)" sequence="0" value="create_mod"/>
+                <element inactive_on_update="false" label="Δημιουργία νέου Εσωτερικού Εγγράφου" sequence="0" value="create_new"/>
+                <element inactive="true" inactive_on_update="true" label="Αναθεώρηση Εντύπου (Mod)" sequence="1" value="update_mod"/>
+                <element inactive_on_update="false" label="Αναθεώρηση Εσωτερικού Εγγράφου" sequence="1" value="update"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Qhs director" max_length="32" name="qhs_director" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Qhs manager" max_length="32" name="qhs_manager" reference="sys_user" type="reference"/>
+        <element label="Qhs manager replied" max_length="40" name="qhs_manager_replied" type="boolean"/>
+        <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
+        <element label="Reset rejected approvals" max_length="40" name="reset_rejected_approvals" type="boolean"/>
+        <element label="Αίτημα Έγκρισης από Γενικό Διευθυντή" max_length="40" name="revise_send_to_general_director" type="boolean"/>
+        <element active="false" function_definition="glidefunction:subtract('30',duration_edit)" function_field="true" label="Ekpothesmes" max_length="40" name="rpt_ekpothesmes" read_only="true" type="boolean"/>
+        <element active="false" function_definition="glidefunction:subtract('30',duration_commentary)" function_field="true" label="Test" max_length="40" name="rpt_test" read_only="true" type="boolean"/>
+        <element function_definition="glidefunction:subtract('44',duration_total)" function_field="true" label="testekp" max_length="40" name="rpt_testekp" read_only="true" type="boolean"/>
+        <element label="Scheduled Review" max_length="40" name="scheduled_revision" type="boolean"/>
+        <element label="Διαβίβαση προς Διευθυντή QHS" max_length="40" name="send_to_qhs_director" type="boolean"/>
+        <element label="Skip approve if commenting" max_length="40" name="skip_approve_if_commenting" type="boolean"/>
+        <element choice="1" label="Προγραμματισμός Αναθεώρισης σε (Μήνας)" max_length="40" name="start_revise_date" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="January" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Ιανουάριος" language="el" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="February" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Φεβρουάριος" language="el" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="March" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Μάρτιος" language="el" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="April" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Απρίλιος" language="el" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="May" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Μάιος" language="el" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="June" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Ιούνιος" language="el" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="July" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="Ιούλιος" language="el" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="August" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Αύγουστος" language="el" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="September" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="Σεπτέμβριος" language="el" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="October" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="Οκτώβριος" language="el" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="November" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="Νοέμβριος" language="el" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="December" sequence="12" value="12"/>
+                <element inactive_on_update="false" label="Δεκέμβριος" language="el" sequence="12" value="12"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Reference Material URL" max_length="1024" name="url" type="url"/>
+        <element label="Allow users to decline policy" max_length="40" name="u_boolean_11" type="boolean"/>
+        <element label="Allow users to request exception" max_length="40" name="u_boolean_12" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="4000" name="u_description_qhs" type="string"/>
+        <element label="Due date" max_length="40" name="u_due_date_3" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Ημερομηνία Αποστολής Προσχεδίων" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Σε ισχύ από:" max_length="40" name="u_glide_date_time_7" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Valid to" max_length="40" name="u_glide_date_time_8" type="glide_date_time"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Παρατηρητές" max_length="1024" name="u_glide_list_1" reference="sys_user" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Involved Managers" max_length="1024" name="u_glide_list_10" reference="sys_user" reference_qual="x_epats_eda_thess_thesi_ergasiasLIKEΔΙΕΥΘ^ORx_epats_eda_thess_thesi_ergasiasLIKEΥΠΕΥΘ^EQ" reference_qual_condition="x_epats_eda_thess_thesi_ergasiasLIKEΔΙΕΥΘ^ORx_epats_eda_thess_thesi_ergasiasLIKEΥΠΕΥΘ^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" dependent="owning_group" dependent_on_field="owning_group" label="Involved Heads of Departments" max_length="1024" name="u_glide_list_9" reference="sys_user" reference_qual="x_epats_eda_thess_thesi_ergasiasLIKEΔΙΕΥΘ^EQ" reference_qual_condition="x_epats_eda_thess_thesi_ergasiasLIKEΔΙΕΥΘ^EQ" type="glide_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments" max_length="4000" name="u_journal_1" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Σχόλια/Παρατηρήσεις" max_length="4000" name="u_journal_2" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="250" name="u_name_qhs" type="string"/>
+        <element attributes="encode_utf8=false" label="Manager" max_length="32" name="u_owner_qhs" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" choice="1" label="Department" max_length="32" name="u_owning_group_qhs" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AFC" value="AFC"/>
+                <element inactive_on_update="false" label="CA" value="CA"/>
+                <element inactive_on_update="false" label="CON" value="CON"/>
+                <element inactive_on_update="false" label="DEV" value="DEV"/>
+                <element inactive_on_update="false" label="GM" value="GM"/>
+                <element inactive_on_update="false" label="GMI" value="GMI"/>
+                <element inactive_on_update="false" label="HR" value="HR"/>
+                <element inactive_on_update="false" label="ICT" value="ICT"/>
+                <element inactive_on_update="false" label="INSEC" value="INSEC"/>
+                <element inactive_on_update="false" label="LEG" value="LEG"/>
+                <element inactive_on_update="false" label="MB" value="MB"/>
+                <element inactive_on_update="false" label="PROC" value="PROC"/>
+                <element inactive_on_update="false" label="QHS" value="QHS"/>
+                <element inactive_on_update="false" label="STRAT-REG" value="STRAT-REG"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Policies" max_length="32" name="u_policies_qhs" reference="x_epats_qhs_qhs_policy" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Διαδικασία" sequence="0" value="διαδικασία"/>
+                <element inactive_on_update="false" label="Εγχειρίδιο" sequence="1" value="εγχειρίδιο"/>
+                <element inactive_on_update="false" label="Έντυπο" sequence="2" value="έντυπο"/>
+                <element inactive_on_update="false" label="Κανονισμός" sequence="3" value="κανονισμός"/>
+                <element inactive_on_update="false" label="Κώδικας" sequence="4" value="κώδικας"/>
+                <element inactive_on_update="false" label="Νομοθεσία" sequence="5" value="νομοθεσία"/>
+                <element inactive_on_update="false" label="Οδηγία" sequence="6" value="οδηγία"/>
+                <element inactive_on_update="false" label="Πολιτική" sequence="7" value="πολιτική"/>
+                <element inactive_on_update="false" label="Προδιαγραφή" sequence="8" value="προδιαγραφή"/>
+                <element inactive_on_update="false" label="Προδιαγραφή Υλικού" sequence="9" value="προδιαγραφή υλικού"/>
+                <element inactive_on_update="false" label="Πρότυπο" sequence="10" value="πρότυπο"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Review Needs" max_length="500" name="u_string_3" type="string"/>
+        <index name="index">
+            <element name="audience"/>
+        </index>
+        <index name="index2">
+            <element name="kb_article"/>
+        </index>
+        <index name="index3">
+            <element name="general_director"/>
+        </index>
+        <index name="index4">
+            <element name="ca_group"/>
+        </index>
+        <index name="index5">
+            <element name="qhs_director"/>
+        </index>
+        <index name="index6">
+            <element name="armodios_manager"/>
+        </index>
+        <index name="index7">
+            <element name="kb_knowledge_base"/>
+        </index>
+        <index name="index8">
+            <element name="opened_by"/>
+        </index>
+        <index name="index9">
+            <element name="qhs_manager"/>
+        </index>
+        <index name="index10">
+            <element name="knowledge_base"/>
+        </index>
+        <index name="index11">
+            <element name="leg_group"/>
+        </index>
+        <index name="index12">
+            <element name="department_director"/>
+        </index>
+        <index name="index13">
+            <element name="u_owning_group_qhs"/>
+        </index>
+        <index name="index14">
+            <element name="article_template"/>
+        </index>
+        <index name="index15">
+            <element name="u_owner_qhs"/>
+        </index>
+        <index name="index16">
+            <element name="u_policies_qhs"/>
+        </index>
+        <index name="index17">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
