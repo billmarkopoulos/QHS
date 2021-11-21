@@ -29,15 +29,15 @@
         <sys_created_by>lamprou.sch@empedus.eu</sys_created_by>
         <sys_created_on>2021-09-13 11:21:58</sys_created_on>
         <sys_id>7031c0461be6f050aa2b4371b24bcb49</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>Empedus</sys_updated_by>
-        <sys_updated_on>2021-11-21 12:17:21</sys_updated_on>
+        <sys_updated_on>2021-11-21 13:46:54</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role display_value="sn_compliance.user" name="sn_compliance.user">b9cb36f053130200dca62a9ca11c083f</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.4</version>
+        <version>1.0.5</version>
     </sys_app>
 </record_update>
